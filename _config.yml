@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Yan Peng"
   pronouns         : "he/his" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. Student"
   location         : "Soochow, China"
   employer         : "Soochow University"
   uri              : # URL
@@ -42,7 +42,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Yan-Peng-43?ev=hdr_xprf"# URL
   scopus           : # URL
   zotero           : # URL
 
