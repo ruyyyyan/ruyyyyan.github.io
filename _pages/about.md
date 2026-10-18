@@ -25,10 +25,10 @@ My research focuses on computational condensed matter and theoretical physics. D
 ## Education & Research Experience
 
 - **Ph.D. in Theoretical Physics** | Soochow University, *2026 – Present*
-  - *Advisor*: Prof. Bin Xu
+  - *Advisor*: [Prof. Bin Xu](https://web.suda.edu.cn/binxu19/index.html)
   - *Research Focus*: Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, and nonlinear / chaotic dynamics in 2D sliding ferroelectrics.
 - **M.S. in Theoretical Physics** | Soochow University, *2024 – 2026*
-  - *Advisor*: Prof. Mi Jiang
+  - *Advisor*: [Prof. Mi Jiang](https://web.suda.edu.cn/jm/)
   - *Research Focus*: Strongly correlated electron systems and superconductivity physics.
 - **B.S. in Physics** | Soochow University, *2020 – 2024*
 

@@ -12,9 +12,9 @@ redirect_from:
 Education
 ======
 * **Ph.D. in Theoretical Physics**, Soochow University, 2026 - Present
-  * Advisor: Prof. Bin Xu
+  * Advisor: [Prof. Bin Xu](https://web.suda.edu.cn/binxu19/index.html)
 * **M.S. in Theoretical Physics**, Soochow University, 2024 - 2026
-  * Advisor: Prof. Mi Jiang
+  * Advisor: [Prof. Mi Jiang](https://web.suda.edu.cn/jm/)
 * **B.S. in Physics**, Soochow University, 2020 - 2024
 
 Research Interests
