@@ -39,6 +39,7 @@ My research focuses on computational condensed matter and theoretical physics. D
   - *Advisor*: [Prof. Mi Jiang](https://web.suda.edu.cn/jm/)
   - *Research Focus*: Strongly correlated electron systems and superconductivity physics.
 - **B.S. in Physics** | Soochow University, *2020 – 2024*
+- *(Academic genealogy: [Academic Tree](https://academictree.org/physics/tree.php?pid=980247&fontsize=1&pnodecount=4&cnodecount=2))*
 
 ---
 

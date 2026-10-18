@@ -16,6 +16,7 @@ Education
 * **M.S. in Theoretical Physics**, Soochow University, 2024 - 2026
   * Advisor: [Prof. Mi Jiang](https://web.suda.edu.cn/jm/)
 * **B.S. in Physics**, Soochow University, 2020 - 2024
+  * Academic genealogy: [Academic Tree](https://academictree.org/physics/tree.php?pid=980247&fontsize=1&pnodecount=4&cnodecount=2)
 
 Research Interests
 ======
