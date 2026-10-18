@@ -22,6 +22,12 @@ Research Interests
 * First-principles calculations (DFT) and effective Hamiltonian methods
 * Strongly correlated electron systems and superconductivity
 
+Conferences & Workshops
+======
+* **Chinese Physical Society (CPS) Fall Meeting 2026**, Central South University, Changsha, China, Oct 2026
+* **The Conference of Condensed Matter Physics 2026 (CCMP 2026)**, Yangtze River Delta Physics Research Center, Liyang, China, Jun 2026
+* **The 14th Workshop on Quantum Many-Body Computation (QMBC 2026)**, 2026
+
 Skills & Methodologies
 ======
 * **Theoretical & Computational Physics**: Density Functional Theory (DFT), First-principles calculations, Effective Hamiltonian construction, Nonlinear dynamics analysis
@@ -32,10 +38,4 @@ Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks & Presentations
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
