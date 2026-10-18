@@ -1,9 +1,11 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
-permalink: /cv/
+permalink: /
 author_profile: true
 redirect_from:
+  - /cv/
+  - /cv.html
   - /resume
 ---
 
@@ -39,6 +41,15 @@ Skills & Methodologies
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <ul>
+  {% for post in site.publications reversed %}
+    {% if post.featured %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+  {% for post in site.publications reversed %}
+    {% unless post.featured %}
+      {% include archive-single-cv.html %}
+    {% endunless %}
+  {% endfor %}
+  </ul>
