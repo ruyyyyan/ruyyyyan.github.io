@@ -1,0 +1,12 @@
+---
+title: "Multiorbital Cu impurity embedded in an anisotropic square lattice of oxygen atoms"
+collection: publications
+category: manuscripts
+permalink: /publication/2025-02-12-multiorbital-cu-impurity
+date: 2025-02-12
+venue: 'Physical Review B'
+paperurl: 'https://doi.org/10.1103/PhysRevB.111.085125'
+citation: 'Y. Peng and M. Jiang. (2025). "Multiorbital Cu impurity embedded in an anisotropic square lattice of oxygen atoms." <i>Physical Review B</i>, 111(8), 085125.'
+---
+
+[Access Paper (Physical Review B)](https://doi.org/10.1103/PhysRevB.111.085125)
