@@ -22,6 +22,14 @@ My research focuses on computational condensed matter and theoretical physics. D
 
 ---
 
+## Featured Research
+
+- **Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors**  
+  X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, et al.  
+  *Nature Communications*, 2026. DOI: [10.1038/s41467-026-77985-0](https://doi.org/10.1038/s41467-026-77985-0)
+
+---
+
 ## Education & Research Experience
 
 - **Ph.D. in Theoretical Physics** | Soochow University, *2026 – Present*

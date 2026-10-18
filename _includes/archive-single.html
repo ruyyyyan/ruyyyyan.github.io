@@ -28,7 +28,7 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.collection == 'publications' %}
-        {{ title }}
+        {{ title }}{% if post.featured %} <span style="font-size: 0.55em; vertical-align: middle; background-color: #2b547e; color: #ffffff; padding: 2px 8px; border-radius: 4px; font-weight: 500; margin-left: 8px;">Featured</span>{% endif %}
       {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
