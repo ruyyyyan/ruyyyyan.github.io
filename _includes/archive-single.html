@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title" itemprop="headline" style="text-decoration: none;">
       {% if post.collection == 'publications' %}
         {{ title }}{% if post.featured %} <span style="font-size: 0.55em; vertical-align: middle; background-color: #2b547e; color: #ffffff; padding: 2px 8px; border-radius: 4px; font-weight: 500; margin-left: 8px;">Featured</span>{% endif %}
       {% elsif post.link %}
