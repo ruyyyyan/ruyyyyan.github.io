@@ -29,7 +29,7 @@ author:
   orcid                  : "https://orcid.org/0009-0008-5604-7517"
   semantic               :
   ssrn                   :
-  pubmed                 : # 已清空，不展示
+  pubmed                 :
   researchgate           : "https://www.researchgate.net/profile/Yan-Peng-43?ev=hdr_xprf"
   scopus                 :
   zotero                 :
@@ -172,7 +172,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# 仅保留 publications
+# Only keep publications collection
 collections:
   publications:
     output: true

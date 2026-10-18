@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. student majoring in **Theoretical Physics** at **Soochow University (苏州大学)**.
+I am currently a Ph.D. student majoring in **Theoretical Physics** at **Soochow University**.
 
 My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on **strongly correlated electron systems** and **superconductivity physics**. For my doctoral research, I focus on **ferroelectric physics**, employing **first-principles (ab initio) calculations** and **effective Hamiltonian methods**. Recently, I have developed a keen interest in exploring **chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics**.
 
@@ -24,11 +24,13 @@ My research focuses on computational condensed matter and theoretical physics. D
 
 ## Education & Research Experience
 
-- **Ph.D. in Theoretical Physics (硕博连读)** | Soochow University (苏州大学), *2026 – Present*
+- **Ph.D. in Theoretical Physics** | Soochow University, *2026 – Present*
+  - *Advisor*: Prof. Bin Xu
   - *Research Focus*: Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, and nonlinear / chaotic dynamics in 2D sliding ferroelectrics.
-- **M.S. in Theoretical Physics** | Soochow University (苏州大学), *2024 – 2026*
+- **M.S. in Theoretical Physics** | Soochow University, *2024 – 2026*
+  - *Advisor*: Prof. Mi Jiang
   - *Research Focus*: Strongly correlated electron systems and superconductivity physics.
-- **B.S. in Physics** | Soochow University (苏州大学), *2020 – 2024*
+- **B.S. in Physics** | Soochow University, *2020 – 2024*
 
 ---
 
