@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Theoretical Physics** (硕博连读), Soochow University (苏州大学), 2026 – Present
-* **M.S. in Theoretical Physics**, Soochow University (苏州大学), 2024 – 2026
-* **B.S. in Physics**, Soochow University (苏州大学), 2020 – 2024
+* **Ph.D. in Theoretical Physics**, Soochow University, 2026 - Present
+* **M.S. in Theoretical Physics**, Soochow University, 2024 - 2026
+* **B.S. in Physics**, Soochow University, 2020 - 2024
 
 Research Interests
 ======
