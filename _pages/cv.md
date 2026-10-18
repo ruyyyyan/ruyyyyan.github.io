@@ -1,11 +1,9 @@
 ---
 layout: archive
 title: "Curriculum Vitae"
-permalink: /
+permalink: /cv/
 author_profile: true
 redirect_from:
-  - /cv/
-  - /cv.html
   - /resume
 ---
 
