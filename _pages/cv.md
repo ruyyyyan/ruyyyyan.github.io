@@ -18,6 +18,10 @@ Education
 * **B.S. in Physics**, Soochow University, 2020 - 2024
   * Academic genealogy: [Academic Tree](https://academictree.org/physics/tree.php?pid=980247&fontsize=1&pnodecount=4&cnodecount=2)
 
+Honors & Awards
+======
+* **National Scholarship for Graduate Students**, Ministry of Education of China, 2025
+
 Research Interests
 ======
 * Ferroelectric physics and 2D sliding ferroelectricity

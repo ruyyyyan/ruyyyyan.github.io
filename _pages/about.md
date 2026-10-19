@@ -43,6 +43,13 @@ My research focuses on computational condensed matter and theoretical physics. D
 
 ---
 
+## Honors & Awards
+
+- **National Scholarship for Graduate Students**, Ministry of Education of China, 2025
+
+---
+
 ## News & Updates
 
 - **[Recent]** Exploring nonlinear dynamics and chaotic behaviors in 2D sliding ferroelectrics.
+- **[2025]** Awarded the **National Scholarship for Graduate Students**, Ministry of Education of China.
