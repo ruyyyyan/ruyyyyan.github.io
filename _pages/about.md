@@ -26,7 +26,7 @@ redirect_from:
   <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
     
     <!-- Left: Compact 4-Image Interactive Carousel -->
-    <div style="flex: 0 1 310px; width: 100%; max-width: 320px; margin: 0 auto;">
+    <div id="feat-carousel-box" style="flex: 0 1 310px; width: 100%; max-width: 320px; margin: 0 auto;">
       <!-- Image Viewing Box -->
       <div style="position: relative; width: 100%; height: 215px; display: flex; align-items: center; justify-content: center; background: #ffffff; border-radius: 8px; border: 1px solid rgba(0,0,0,0.08); overflow: hidden; box-shadow: inset 0 0 4px rgba(0,0,0,0.03);">
         
@@ -123,8 +123,8 @@ redirect_from:
     {
       imgId: 'feat-slide-0',
       tag: 'Proposed Picture',
-      title: 'Fig. 1a: Checkerboard Zhang–Rice Order',
-      desc: 'A spontaneous checkerboard-type Zhang–Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.'
+      title: 'Fig. 1a: Checkerboard Zhang-Rice Order',
+      desc: 'A spontaneous checkerboard-type Zhang-Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.'
     },
     {
       imgId: 'feat-slide-1',
@@ -142,7 +142,7 @@ redirect_from:
       imgId: 'feat-slide-3',
       tag: 'DQMC Simulation',
       title: 'Fig. 4b: Orbital-Resolved Spectral Function',
-      desc: 'At a doped-hole concentration of <i>p</i><sub>h</sub> &approx; 0.5 relative to half-filling, calculated spectra exhibit split features and weakened Cu–O coupling, qualitatively supporting ZRS breakdown.'
+      desc: 'At a doped-hole concentration of <i>p</i><sub>h</sub> &approx; 0.5 relative to half-filling, calculated spectra exhibit split features and weakened Cu-O coupling, qualitatively supporting ZRS breakdown.'
     }
   ];
 
@@ -203,10 +203,14 @@ redirect_from:
     startAutoPlay();
   };
 
+  var carouselBox = document.getElementById('feat-carousel-box') || document.getElementById('featured-research-card');
+  if (carouselBox) {
+    carouselBox.addEventListener('mouseenter', stopAutoPlay);
+    carouselBox.addEventListener('mouseleave', startAutoPlay);
+  }
+
   var card = document.getElementById('featured-research-card');
   if (card) {
-    card.addEventListener('mouseenter', stopAutoPlay);
-    card.addEventListener('mouseleave', startAutoPlay);
     card.addEventListener('keydown', function(e) {
       if (e.key === 'ArrowLeft') {
         updateCarousel(currentIndex - 1);
@@ -218,7 +222,6 @@ redirect_from:
     });
   }
 
-  // Start autoplay immediately on load
   startAutoPlay();
 })();
 </script>
