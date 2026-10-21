@@ -39,28 +39,20 @@ redirect_from:
       <!-- Image Viewing Box -->
       <div style="position: relative; width: 100%; height: 215px; display: flex; align-items: center; justify-content: center; background: #ffffff; border-radius: 8px; border: 1px solid rgba(0,0,0,0.08); overflow: hidden; box-shadow: inset 0 0 4px rgba(0,0,0,0.03);">
         
-        <div id="feat-slide-0" style="display: block; width: 100%; height: 100%; text-align: center;">
-          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 1a)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
-            <img src="{{ '/images/featured-fig1a-checkerboard.png' | relative_url }}" alt="Fig. 1a: Checkerboard ZRS Configuration" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
-          </a>
+        <div id="feat-slide-0" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
+          <img src="{{ '/images/featured-fig1a-checkerboard.png' | relative_url }}" alt="Fig. 1a: Checkerboard ZRS Configuration" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
         </div>
 
-        <div id="feat-slide-1" style="display: none; width: 100%; height: 100%; text-align: center;">
-          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 3e,f)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
-            <img src="{{ '/images/featured-fig3ef-zrs-splitting.png' | relative_url }}" alt="Fig. 3e,f: Experimental ZRS Splitting" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
-          </a>
+        <div id="feat-slide-1" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
+          <img src="{{ '/images/featured-fig3ef-zrs-splitting.png' | relative_url }}" alt="Fig. 3e,f: Observed ZRS Splitting" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
         </div>
 
-        <div id="feat-slide-2" style="display: none; width: 100%; height: 100%; text-align: center;">
-          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 2e)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
-            <img src="{{ '/images/featured-fig2e-xas-peak-a.png' | relative_url }}" alt="Fig. 2e: Emergence of Peak A* in XAS" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
-          </a>
+        <div id="feat-slide-2" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
+          <img src="{{ '/images/featured-fig2e-xas-peak-a.png' | relative_url }}" alt="Fig. 2e: Emergence of Peak A* in XAS" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
         </div>
 
-        <div id="feat-slide-3" style="display: none; width: 100%; height: 100%; text-align: center;">
-          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 4b)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
-            <img src="{{ '/images/featured-fig4b-dqmc-dos.png' | relative_url }}" alt="Fig. 4b: DQMC Simulated Density of States" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
-          </a>
+        <div id="feat-slide-3" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
+          <img src="{{ '/images/featured-fig4b-dqmc-dos.png' | relative_url }}" alt="Fig. 4b: DQMC Simulated Density of States" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
         </div>
 
         <!-- Navigation Buttons -->
@@ -146,24 +138,26 @@ redirect_from:
     {
       imgId: 'feat-slide-1',
       tag: 'Experimental Observation',
-      title: 'Fig. 3e,f: Experimental ZRS Splitting',
-      desc: 'Spectroscopic evidence showing the breakdown and splitting of the single ZRS band into ZR1 and ZR2 states for <i>x</i> &gt; 0.2.'
+      title: 'Fig. 3e,f: Observed ZRS Splitting',
+      desc: 'Nature Communications Fig. 3e,f: High-resolution spectroscopic evidence demonstrating the breakdown and splitting of the single ZRS band into ZR1 and ZR2 states.'
     },
     {
       imgId: 'feat-slide-2',
       tag: 'X-ray Spectroscopy',
-      title: 'Fig. 2e: Emergence of Distinct New Peak A* in XAS',
-      desc: 'Spectral fitting of in-plane O <i>K</i>-edge XAS definitively demonstrating the emergence and rapid growth of new peak A*.'
+      title: 'Fig. 2e: Emergence of Distinct Peak A* in XAS',
+      desc: 'Nature Communications Fig. 2e: Spectral fitting of in-plane O <i>K</i>-edge XAS definitively demonstrating the emergence and rapid growth of new peak A*.'
     },
     {
       imgId: 'feat-slide-3',
       tag: 'DQMC Simulation',
-      title: 'Fig. 4b: DQMC Simulated Density of States (DOS)',
+      title: 'Fig. 4b: Simulated Density of States (DOS)',
       desc: 'Determinant Quantum Monte Carlo simulations on the three-orbital Emery model reproducing the ZRS splitting trend across <i>p</i><sub>h</sub> = 0.1–0.6.'
     }
   ];
 
   var currentIndex = 0;
+  var autoPlayTimer = null;
+  var autoPlayDelay = 4000;
 
   function updateCarousel(index) {
     if (index < 0) index = slides.length - 1;
@@ -173,7 +167,7 @@ redirect_from:
     for (var i = 0; i < slides.length; i++) {
       var slideEl = document.getElementById(slides[i].imgId);
       if (slideEl) {
-        slideEl.style.display = (i === currentIndex) ? 'block' : 'none';
+        slideEl.style.display = (i === currentIndex) ? 'flex' : 'none';
       }
     }
 
@@ -194,24 +188,47 @@ redirect_from:
     }
   }
 
+  function startAutoPlay() {
+    stopAutoPlay();
+    autoPlayTimer = setInterval(function() {
+      updateCarousel(currentIndex + 1);
+    }, autoPlayDelay);
+  }
+
+  function stopAutoPlay() {
+    if (autoPlayTimer) {
+      clearInterval(autoPlayTimer);
+      autoPlayTimer = null;
+    }
+  }
+
   window.setFeaturedSlide = function(index) {
     updateCarousel(index);
+    startAutoPlay();
   };
 
   window.changeFeaturedSlide = function(step) {
     updateCarousel(currentIndex + step);
+    startAutoPlay();
   };
 
   var card = document.getElementById('featured-research-card');
   if (card) {
+    card.addEventListener('mouseenter', stopAutoPlay);
+    card.addEventListener('mouseleave', startAutoPlay);
     card.addEventListener('keydown', function(e) {
       if (e.key === 'ArrowLeft') {
         updateCarousel(currentIndex - 1);
+        startAutoPlay();
       } else if (e.key === 'ArrowRight') {
         updateCarousel(currentIndex + 1);
+        startAutoPlay();
       }
     });
   }
+
+  // Start autoplay immediately on load
+  startAutoPlay();
 })();
 </script>
 
