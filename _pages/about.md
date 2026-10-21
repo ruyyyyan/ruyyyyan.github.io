@@ -93,7 +93,7 @@ redirect_from:
       </div>
     </div>
 
-    <!-- Right: Paper Information & Interactive Highlights -->
+    <!-- Right: Paper Information -->
     <div style="flex: 1 1 340px; min-width: 280px;">
       <!-- Badges -->
       <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.7em;">
@@ -103,58 +103,28 @@ redirect_from:
       </div>
 
       <!-- Paper Title -->
-      <h3 style="margin-top: 0; margin-bottom: 0.4em; font-size: 1.18em; line-height: 1.35;">
+      <h3 style="margin-top: 0; margin-bottom: 0.5em; font-size: 1.22em; line-height: 1.35;">
         <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="color: inherit; text-decoration: none;">Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors</a>
       </h3>
 
       <!-- Complete 16-Author Citation -->
-      <p style="font-size: 0.88em; margin-bottom: 0.75em; color: var(--global-text-color); line-height: 1.45;">
+      <p style="font-size: 0.9em; margin-bottom: 1.1em; color: var(--global-text-color); line-height: 1.55;">
         X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, M. B. H. Breese, A. Ariando, C. S. Tang, G. A. Sawatzky, M. Jiang, and X. Yin.<br>
         <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
       </p>
 
-      <!-- Interactive Key Findings -->
-      <div style="margin-bottom: 0.9em;">
-        <div id="feat-item-0" onclick="setFeaturedSlide(0)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid #2b547e; background: rgba(43,84,126,0.08); transition: all 0.2s;">
-          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>Proposed ZRS Configuration (Fig. 1a):</b> Theoretical hypothesis proposing a spontaneous checkerboard-type Zhang–Rice singlet spatial distribution within the CuO<sub>2</sub> plane in heavily overdoped cuprates.
-          </div>
-        </div>
-
-        <div id="feat-item-1" onclick="setFeaturedSlide(1)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
-          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>Experimental ZRS Splitting (Fig. 3e,f):</b> High-resolution spectroscopic evidence demonstrating the breakdown and splitting of the single ZRS band into ZR1 (near <i>E</i><sub>F</sub>) and ZR2 (higher energy) for <i>x</i> &gt; 0.2.
-          </div>
-        </div>
-
-        <div id="feat-item-2" onclick="setFeaturedSlide(2)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
-          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>Emergent Peak A* in XAS (Fig. 2e):</b> Spectral fitting of in-plane O <i>K</i>-edge XAS providing unambiguous evidence for the distinct emergent peak A* (~527.8 eV) alongside peak A.
-          </div>
-        </div>
-
-        <div id="feat-item-3" onclick="setFeaturedSlide(3)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 6px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
-          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>DQMC Simulation Agreement (Fig. 4b):</b> Determinant Quantum Monte Carlo calculations on the three-orbital Emery model exhibiting consistent splitting of the ZRS peak in simulated density of states (DOS) across <i>p</i><sub>h</sub> = 0.1–0.6.
-          </div>
-        </div>
-      </div>
-
-      <!-- Tags & Action Buttons -->
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding-top: 0.8em; border-top: 1px dashed var(--global-border-color);">
+      <!-- Tags & Action Button -->
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding-top: 1em; border-top: 1px dashed var(--global-border-color);">
         <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Cuprates</span>
-          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Superconductivity</span>
-          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Zhang-Rice Singlet</span>
-          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#DQMC</span>
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 3px 8px; border-radius: 4px;">#Cuprates</span>
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 3px 8px; border-radius: 4px;">#Superconductivity</span>
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 3px 8px; border-radius: 4px;">#Zhang-Rice Singlet</span>
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 3px 8px; border-radius: 4px;">#DQMC</span>
         </div>
-        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; font-size: 0.82em; font-weight: 600; color: #ffffff; background: #2b547e; border-radius: 5px; text-decoration: none;">
+        <div>
+          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 0.84em; font-weight: 600; color: #ffffff; background: #2b547e; border-radius: 6px; text-decoration: none;">
             <span>Read Paper (DOI)</span>
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-          </a>
-          <a href="https://arxiv.org/abs/2512.09547" target="_blank" style="display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; font-size: 0.82em; font-weight: 600; color: #b31b1b; background: rgba(179,27,27,0.1); border-radius: 5px; text-decoration: none;">
-            <span>arXiv:2512.09547</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
           </a>
         </div>
       </div>
@@ -221,19 +191,6 @@ redirect_from:
     for (var d = 0; d < dots.length; d++) {
       dots[d].style.background = (d === currentIndex) ? '#2b547e' : '#cccccc';
       dots[d].style.transform = (d === currentIndex) ? 'scale(1.25)' : 'scale(1)';
-    }
-
-    for (var k = 0; k < slides.length; k++) {
-      var itemEl = document.getElementById('feat-item-' + k);
-      if (itemEl) {
-        if (k === currentIndex) {
-          itemEl.style.borderLeft = '3px solid #2b547e';
-          itemEl.style.background = 'rgba(43, 84, 126, 0.08)';
-        } else {
-          itemEl.style.borderLeft = '3px solid transparent';
-          itemEl.style.background = 'transparent';
-        }
-      }
     }
   }
 

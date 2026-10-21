@@ -5,5 +5,5 @@ category: manuscripts
 permalink: /publication/2026-09-19-checkerboard-type-zhang-rice
 date: 2026-09-19
 venue: 'Nature Communications'
-citation: 'X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, M. B. H. Breese, A. Ariando, C. S. Tang, G. A. Sawatzky, M. Jiang, and X. Yin. (2026). <i>Nature Communications</i>, doi: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>. (Also available at <a href="https://arxiv.org/abs/2512.09547" target="_blank">arXiv:2512.09547</a>).'
+citation: 'X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, M. B. H. Breese, A. Ariando, C. S. Tang, G. A. Sawatzky, M. Jiang, and X. Yin. (2026). <i>Nature Communications</i>, doi: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>.'
 ---
