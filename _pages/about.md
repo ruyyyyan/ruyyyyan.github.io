@@ -82,7 +82,7 @@ redirect_from:
       <!-- Dynamic Caption Box -->
       <div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.025); border: 1px solid rgba(0,0,0,0.04); border-radius: 8px; text-align: center; min-height: 68px;">
         <div id="feat-caption-tag" style="font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #2b547e; margin-bottom: 2px;">
-          Step 1: Model Hypothesis
+          Theoretical Model
         </div>
         <div id="feat-caption-title" style="font-size: 0.82em; font-weight: 700; color: var(--global-text-color); margin-bottom: 3px;">
           Fig. 1a: Proposed Checkerboard ZRS Configuration
@@ -93,7 +93,7 @@ redirect_from:
       </div>
     </div>
 
-    <!-- Right: Paper Information & 4 Interactive Step Findings -->
+    <!-- Right: Paper Information & Interactive Highlights -->
     <div style="flex: 1 1 340px; min-width: 280px;">
       <!-- Badges -->
       <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.7em;">
@@ -113,33 +113,29 @@ redirect_from:
         <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
       </p>
 
-      <!-- Interactive 4 Key Findings -->
+      <!-- Interactive Key Findings -->
       <div style="margin-bottom: 0.9em;">
-        <div style="font-weight: 700; margin-bottom: 0.4em; text-transform: uppercase; font-size: 0.76em; letter-spacing: 0.06em; color: var(--global-text-color-light);">
-          Key Scientific Findings (Click step to view figure)
-        </div>
-
         <div id="feat-item-0" onclick="setFeaturedSlide(0)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid #2b547e; background: rgba(43,84,126,0.08); transition: all 0.2s;">
           <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>1. Proposed ZRS Configuration (Fig. 1a):</b> Theoretical hypothesis proposing a spontaneous checkerboard-type Zhang–Rice singlet spatial distribution within the CuO<sub>2</sub> plane in heavily overdoped cuprates.
+            <b>Proposed ZRS Configuration (Fig. 1a):</b> Theoretical hypothesis proposing a spontaneous checkerboard-type Zhang–Rice singlet spatial distribution within the CuO<sub>2</sub> plane in heavily overdoped cuprates.
           </div>
         </div>
 
         <div id="feat-item-1" onclick="setFeaturedSlide(1)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
           <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>2. Experimental Observation of ZRS Splitting (Fig. 3e,f):</b> High-resolution spectroscopic evidence demonstrating the breakdown and splitting of the single ZRS band into ZR1 (near <i>E</i><sub>F</sub>) and ZR2 (higher energy) for <i>x</i> &gt; 0.2.
+            <b>Experimental ZRS Splitting (Fig. 3e,f):</b> High-resolution spectroscopic evidence demonstrating the breakdown and splitting of the single ZRS band into ZR1 (near <i>E</i><sub>F</sub>) and ZR2 (higher energy) for <i>x</i> &gt; 0.2.
           </div>
         </div>
 
         <div id="feat-item-2" onclick="setFeaturedSlide(2)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
           <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>3. Emergent Peak A* in XAS (Fig. 2e):</b> Spectral fitting of in-plane O <i>K</i>-edge XAS providing unambiguous evidence for the distinct emergent peak A* (~527.8 eV) alongside peak A.
+            <b>Emergent Peak A* in XAS (Fig. 2e):</b> Spectral fitting of in-plane O <i>K</i>-edge XAS providing unambiguous evidence for the distinct emergent peak A* (~527.8 eV) alongside peak A.
           </div>
         </div>
 
         <div id="feat-item-3" onclick="setFeaturedSlide(3)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 6px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
           <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
-            <b>4. DQMC Simulation Agreement (Fig. 4b):</b> Determinant Quantum Monte Carlo calculations on the three-orbital Emery model exhibiting consistent splitting of the ZRS peak in simulated density of states (DOS) across <i>p</i><sub>h</sub> = 0.1–0.6.
+            <b>DQMC Simulation Agreement (Fig. 4b):</b> Determinant Quantum Monte Carlo calculations on the three-orbital Emery model exhibiting consistent splitting of the ZRS peak in simulated density of states (DOS) across <i>p</i><sub>h</sub> = 0.1–0.6.
           </div>
         </div>
       </div>
@@ -173,25 +169,25 @@ redirect_from:
   var slides = [
     {
       imgId: 'feat-slide-0',
-      tag: 'Step 1: Model Hypothesis',
+      tag: 'Theoretical Model',
       title: 'Fig. 1a: Proposed Checkerboard ZRS Configuration',
       desc: 'Real-space schematic of checkerboard-type Zhang–Rice singlet states within the CuO<sub>2</sub> plane in overdoped LSCO.'
     },
     {
       imgId: 'feat-slide-1',
-      tag: 'Step 2: Experimental Observation',
+      tag: 'Experimental Observation',
       title: 'Fig. 3e,f: Experimental ZRS Splitting',
       desc: 'Spectroscopic evidence showing the breakdown and splitting of the single ZRS band into ZR1 and ZR2 states for <i>x</i> &gt; 0.2.'
     },
     {
       imgId: 'feat-slide-2',
-      tag: 'Step 3: Spectral Evidence',
+      tag: 'X-ray Spectroscopy',
       title: 'Fig. 2e: Emergence of Distinct New Peak A* in XAS',
       desc: 'Spectral fitting of in-plane O <i>K</i>-edge XAS definitively demonstrating the emergence and rapid growth of new peak A*.'
     },
     {
       imgId: 'feat-slide-3',
-      tag: 'Step 4: Theoretical Simulation',
+      tag: 'DQMC Simulation',
       title: 'Fig. 4b: DQMC Simulated Density of States (DOS)',
       desc: 'Determinant Quantum Monte Carlo simulations on the three-orbital Emery model reproducing the ZRS splitting trend across <i>p</i><sub>h</sub> = 0.1–0.6.'
     }
