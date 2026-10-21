@@ -28,14 +28,7 @@ author_profile: true
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% if post.featured %}
-      {% include archive-single.html %}
-    {% endif %}
-  {% endfor %}
-  {% for post in site.publications reversed %}
-    {% unless post.featured %}
-      {% include archive-single.html %}
-    {% endunless %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 

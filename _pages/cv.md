@@ -55,13 +55,6 @@ Publications
 ======
   <ul>
   {% for post in site.publications reversed %}
-    {% if post.featured %}
-      {% include archive-single-cv.html %}
-    {% endif %}
-  {% endfor %}
-  {% for post in site.publications reversed %}
-    {% unless post.featured %}
-      {% include archive-single-cv.html %}
-    {% endunless %}
+    {% include archive-single-cv.html %}
   {% endfor %}
   </ul>
