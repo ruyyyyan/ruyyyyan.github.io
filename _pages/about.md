@@ -27,23 +27,33 @@ redirect_from:
     
     <!-- Left: Compact 4-Image Interactive Carousel -->
     <div id="feat-carousel-box" style="flex: 0 1 310px; width: 100%; max-width: 320px; margin: 0 auto;">
-      <!-- Image Viewing Box -->
-      <div style="position: relative; width: 100%; height: 215px; display: flex; align-items: center; justify-content: center; background: #ffffff; border-radius: 8px; border: 1px solid rgba(0,0,0,0.08); overflow: hidden; box-shadow: inset 0 0 4px rgba(0,0,0,0.03);">
+      <!-- Image Viewing Box with Sliding Track -->
+      <div style="position: relative; width: 100%; height: 215px; background: #ffffff; border-radius: 8px; border: 1px solid rgba(0,0,0,0.08); overflow: hidden; box-shadow: inset 0 0 4px rgba(0,0,0,0.03);">
         
-        <div id="feat-slide-0" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
-          <img src="{{ '/images/featured-fig1a-checkerboard.png' | relative_url }}" alt="Fig. 1a: Checkerboard ZRS Configuration" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
-        </div>
+        <!-- Continuous Sliding Track (5 panels: 0, 1, 2, 3, clone-0) -->
+        <div id="feat-track" style="display: flex; width: 500%; height: 100%; transform: translateX(0%); transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1); will-change: transform;">
+          
+          <div style="width: 20%; height: 100%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <img src="{{ '/images/featured-fig1a-checkerboard.png' | relative_url }}" alt="Fig. 1a: Checkerboard ZRS Configuration" style="max-height: 205px; max-width: 95%; object-fit: contain; margin: auto; user-select: none;">
+          </div>
 
-        <div id="feat-slide-1" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
-          <img src="{{ '/images/featured-fig3ef-zrs-splitting.png' | relative_url }}" alt="Fig. 3e,f: Observed ZRS Splitting" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
-        </div>
+          <div style="width: 20%; height: 100%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <img src="{{ '/images/featured-fig3ef-zrs-splitting.png' | relative_url }}" alt="Fig. 3e,f: Observed ZRS Splitting" style="max-height: 205px; max-width: 95%; object-fit: contain; margin: auto; user-select: none;">
+          </div>
 
-        <div id="feat-slide-2" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
-          <img src="{{ '/images/featured-fig2e-xas-peak-a.png' | relative_url }}" alt="Fig. 2e: Emergence of Peak A* in XAS" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
-        </div>
+          <div style="width: 20%; height: 100%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <img src="{{ '/images/featured-fig2e-xas-peak-a.png' | relative_url }}" alt="Fig. 2e: Emergence of Peak A* in XAS" style="max-height: 205px; max-width: 95%; object-fit: contain; margin: auto; user-select: none;">
+          </div>
 
-        <div id="feat-slide-3" style="display: none; width: 100%; height: 100%; align-items: center; justify-content: center;">
-          <img src="{{ '/images/featured-fig4b-dqmc-dos.png' | relative_url }}" alt="Fig. 4b: DQMC Simulated Density of States" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto; user-select: none;">
+          <div style="width: 20%; height: 100%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <img src="{{ '/images/featured-fig4b-dqmc-dos.png' | relative_url }}" alt="Fig. 4b: DQMC Simulated Density of States" style="max-height: 205px; max-width: 95%; object-fit: contain; margin: auto; user-select: none;">
+          </div>
+
+          <!-- Seamless Loop Clone of Slide 0 -->
+          <div style="width: 20%; height: 100%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <img src="{{ '/images/featured-fig1a-checkerboard.png' | relative_url }}" alt="Fig. 1a: Checkerboard ZRS Configuration" style="max-height: 205px; max-width: 95%; object-fit: contain; margin: auto; user-select: none;">
+          </div>
+
         </div>
 
         <!-- Navigation Buttons -->
@@ -56,22 +66,22 @@ redirect_from:
 
       <!-- Dot Indicators -->
       <div style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 10px;">
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(0)" title="Fig. 1a: Checkerboard Order" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #2b547e; cursor: pointer; padding: 0; transform: scale(1.25); transition: all 0.2s;"></button>
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(1)" title="Fig. 3e,f: ZRS Splitting" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(2)" title="Fig. 2e: Shoulder A* in XAS" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(3)" title="Fig. 4b: DQMC Spectral Function" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(0)" title="Fig. 1a: Checkerboard Order" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #2b547e; cursor: pointer; padding: 0; transform: scale(1.25); transition: all 0.25s ease;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(1)" title="Fig. 3e,f: ZRS Splitting" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.25s ease;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(2)" title="Fig. 2e: Shoulder A* in XAS" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.25s ease;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(3)" title="Fig. 4b: DQMC Spectral Function" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.25s ease;"></button>
       </div>
 
       <!-- Dynamic Caption Box -->
-      <div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.025); border: 1px solid rgba(0,0,0,0.04); border-radius: 8px; text-align: center; min-height: 74px;">
+      <div id="feat-caption-box" style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.025); border: 1px solid rgba(0,0,0,0.04); border-radius: 8px; text-align: center; min-height: 74px; transition: opacity 0.22s ease;">
         <div id="feat-caption-tag" style="font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #2b547e; margin-bottom: 2px;">
           Proposed Picture
         </div>
         <div id="feat-caption-title" style="font-size: 0.82em; font-weight: 700; color: var(--global-text-color); margin-bottom: 3px;">
-          Fig. 1a: Checkerboard Zhang–Rice Order
+          Fig. 1a: Checkerboard Zhang-Rice Order
         </div>
         <div id="feat-caption-desc" style="font-size: 0.76em; color: var(--global-text-color-light); line-height: 1.35;">
-          A spontaneous checkerboard-type Zhang–Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.
+          A spontaneous checkerboard-type Zhang-Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.
         </div>
       </div>
     </div>
@@ -121,25 +131,21 @@ redirect_from:
 (function() {
   var slides = [
     {
-      imgId: 'feat-slide-0',
       tag: 'Proposed Picture',
       title: 'Fig. 1a: Checkerboard Zhang-Rice Order',
       desc: 'A spontaneous checkerboard-type Zhang-Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.'
     },
     {
-      imgId: 'feat-slide-1',
       tag: 'Spectroscopic Evidence',
       title: 'Fig. 3e,f: Observed ZRS Splitting',
       desc: 'Spectroscopy reveals ZRS breakdown for <i>x</i> &gt; 0.2, evidenced by ZRS splitting into ZR1 and ZR2 subbands in the heavily overdoped regime (0.2 &lt; <i>x</i> &le; 0.6).'
     },
     {
-      imgId: 'feat-slide-2',
       tag: 'X-ray Absorption Spectroscopy',
       title: 'Fig. 2e: Emergence of Low-Energy Shoulder A*',
       desc: 'O <i>K</i>-edge XAS and spectral fitting reveal a new low-energy shoulder A* for <i>x</i> &gt; 0.2, indicating a modification of the ZRS-related unoccupied states.'
     },
     {
-      imgId: 'feat-slide-3',
       tag: 'DQMC Simulation',
       title: 'Fig. 4b: Orbital-Resolved Spectral Function',
       desc: 'At a doped-hole concentration of <i>p</i><sub>h</sub> &approx; 0.5 relative to half-filling, calculated spectra exhibit split features and weakened Cu-O coupling, qualitatively supporting ZRS breakdown.'
@@ -147,42 +153,101 @@ redirect_from:
   ];
 
   var currentIndex = 0;
+  var trackPos = 0;
   var autoPlayTimer = null;
   var autoPlayDelay = 4000;
 
-  function updateCarousel(index) {
-    if (index < 0) index = slides.length - 1;
-    if (index >= slides.length) index = 0;
-    currentIndex = index;
+  var track = document.getElementById('feat-track');
+  var counterEl = document.getElementById('feat-counter');
+  var captionBox = document.getElementById('feat-caption-box');
+  var tagEl = document.getElementById('feat-caption-tag');
+  var titleEl = document.getElementById('feat-caption-title');
+  var descEl = document.getElementById('feat-caption-desc');
+  var dots = document.querySelectorAll('.feat-dot');
 
-    for (var i = 0; i < slides.length; i++) {
-      var slideEl = document.getElementById(slides[i].imgId);
-      if (slideEl) {
-        slideEl.style.display = (i === currentIndex) ? 'flex' : 'none';
-      }
+  function updateMeta(index) {
+    if (counterEl) counterEl.textContent = (index + 1) + ' / ' + slides.length;
+    if (captionBox) {
+      captionBox.style.opacity = '0';
+      setTimeout(function() {
+        if (tagEl) tagEl.textContent = slides[index].tag;
+        if (titleEl) titleEl.innerHTML = slides[index].title;
+        if (descEl) descEl.innerHTML = slides[index].desc;
+        captionBox.style.opacity = '1';
+      }, 190);
+    } else {
+      if (tagEl) tagEl.textContent = slides[index].tag;
+      if (titleEl) titleEl.innerHTML = slides[index].title;
+      if (descEl) descEl.innerHTML = slides[index].desc;
     }
-
-    var counterEl = document.getElementById('feat-counter');
-    if (counterEl) counterEl.textContent = (currentIndex + 1) + ' / ' + slides.length;
-
-    var tagEl = document.getElementById('feat-caption-tag');
-    var titleEl = document.getElementById('feat-caption-title');
-    var descEl = document.getElementById('feat-caption-desc');
-    if (tagEl) tagEl.textContent = slides[currentIndex].tag;
-    if (titleEl) titleEl.innerHTML = slides[currentIndex].title;
-    if (descEl) descEl.innerHTML = slides[currentIndex].desc;
-
-    var dots = document.querySelectorAll('.feat-dot');
     for (var d = 0; d < dots.length; d++) {
-      dots[d].style.background = (d === currentIndex) ? '#2b547e' : '#cccccc';
-      dots[d].style.transform = (d === currentIndex) ? 'scale(1.25)' : 'scale(1)';
+      dots[d].style.background = (d === index) ? '#2b547e' : '#cccccc';
+      dots[d].style.transform = (d === index) ? 'scale(1.25)' : 'scale(1)';
     }
+  }
+
+  function nextSlide() {
+    if (!track) return;
+    if (trackPos >= 4) {
+      track.style.transition = 'none';
+      track.style.transform = 'translateX(0%)';
+      trackPos = 0;
+      void track.offsetHeight;
+    }
+    trackPos++;
+    currentIndex = (trackPos === 4) ? 0 : trackPos;
+    track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
+    track.style.transform = 'translateX(-' + (trackPos * 20) + '%)';
+    updateMeta(currentIndex);
+
+    if (trackPos === 4) {
+      setTimeout(function() {
+        if (track && trackPos === 4) {
+          track.style.transition = 'none';
+          track.style.transform = 'translateX(0%)';
+          trackPos = 0;
+          void track.offsetHeight;
+        }
+      }, 600);
+    }
+  }
+
+  function prevSlide() {
+    if (!track) return;
+    if (trackPos === 0) {
+      track.style.transition = 'none';
+      track.style.transform = 'translateX(-80%)';
+      trackPos = 4;
+      void track.offsetHeight;
+      setTimeout(function() {
+        trackPos = 3;
+        currentIndex = 3;
+        track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
+        track.style.transform = 'translateX(-60%)';
+        updateMeta(currentIndex);
+      }, 20);
+    } else {
+      trackPos--;
+      currentIndex = trackPos;
+      track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
+      track.style.transform = 'translateX(-' + (trackPos * 20) + '%)';
+      updateMeta(currentIndex);
+    }
+  }
+
+  function goToSlide(index) {
+    if (!track || index < 0 || index >= 4) return;
+    trackPos = index;
+    currentIndex = index;
+    track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
+    track.style.transform = 'translateX(-' + (trackPos * 20) + '%)';
+    updateMeta(currentIndex);
   }
 
   function startAutoPlay() {
     stopAutoPlay();
     autoPlayTimer = setInterval(function() {
-      updateCarousel(currentIndex + 1);
+      nextSlide();
     }, autoPlayDelay);
   }
 
@@ -194,16 +259,17 @@ redirect_from:
   }
 
   window.setFeaturedSlide = function(index) {
-    updateCarousel(index);
+    goToSlide(index);
     startAutoPlay();
   };
 
   window.changeFeaturedSlide = function(step) {
-    updateCarousel(currentIndex + step);
+    if (step > 0) nextSlide();
+    else prevSlide();
     startAutoPlay();
   };
 
-  var carouselBox = document.getElementById('feat-carousel-box') || document.getElementById('featured-research-card');
+  var carouselBox = document.getElementById('feat-carousel-box');
   if (carouselBox) {
     carouselBox.addEventListener('mouseenter', stopAutoPlay);
     carouselBox.addEventListener('mouseleave', startAutoPlay);
@@ -213,10 +279,10 @@ redirect_from:
   if (card) {
     card.addEventListener('keydown', function(e) {
       if (e.key === 'ArrowLeft') {
-        updateCarousel(currentIndex - 1);
+        prevSlide();
         startAutoPlay();
       } else if (e.key === 'ArrowRight') {
-        updateCarousel(currentIndex + 1);
+        nextSlide();
         startAutoPlay();
       }
     });
