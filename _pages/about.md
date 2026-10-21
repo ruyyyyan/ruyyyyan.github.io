@@ -24,9 +24,19 @@ My research focuses on computational condensed matter and theoretical physics. D
 
 ## Featured Research
 
-- **Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors**  
-  X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, et al.  
-  *Nature Communications*, 2026. DOI: [10.1038/s41467-026-77985-0](https://doi.org/10.1038/s41467-026-77985-0)
+<div style="margin: 1.2em 0; padding: 1.2em; border: 1px solid var(--global-border-color); border-radius: 8px; background: rgba(0, 0, 0, 0.02);">
+  <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">
+    <img src="{{ '/images/checkerboard-zhang-rice-fig1a.png' | relative_url }}" alt="Fig. 1a: Checkerboard-type Zhang-Rice electronic configuration" style="width: 100%; max-width: 560px; display: block; margin: 0 auto 1em auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  </a>
+  <h3 style="margin-top: 0; margin-bottom: 0.4em;">Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors</h3>
+  <p style="margin-bottom: 0.4em;">
+    X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, et al.<br>
+    <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
+  </p>
+  <p style="font-size: 0.88em; color: var(--global-text-color-light); margin-bottom: 0;">
+    <i><b>Fig. 1a:</b> Schematic diagram of the checkerboard-type Zhang–Rice electronic configuration within the CuO<sub>2</sub> plane in heavily overdoped LSCO.</i>
+  </p>
+</div>
 
 ---
 
