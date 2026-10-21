@@ -56,22 +56,22 @@ redirect_from:
 
       <!-- Dot Indicators -->
       <div style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 10px;">
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(0)" title="Fig. 1a: ZRS Configuration" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #2b547e; cursor: pointer; padding: 0; transform: scale(1.25); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(0)" title="Fig. 1a: Checkerboard Order" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #2b547e; cursor: pointer; padding: 0; transform: scale(1.25); transition: all 0.2s;"></button>
         <button type="button" class="feat-dot" onclick="setFeaturedSlide(1)" title="Fig. 3e,f: ZRS Splitting" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(2)" title="Fig. 2e: XAS Peak A*" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
-        <button type="button" class="feat-dot" onclick="setFeaturedSlide(3)" title="Fig. 4b: DQMC DOS" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(2)" title="Fig. 2e: Shoulder A* in XAS" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(3)" title="Fig. 4b: DQMC Spectral Function" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
       </div>
 
       <!-- Dynamic Caption Box -->
-      <div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.025); border: 1px solid rgba(0,0,0,0.04); border-radius: 8px; text-align: center; min-height: 68px;">
+      <div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.025); border: 1px solid rgba(0,0,0,0.04); border-radius: 8px; text-align: center; min-height: 74px;">
         <div id="feat-caption-tag" style="font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #2b547e; margin-bottom: 2px;">
-          Theoretical Model
+          Proposed Picture
         </div>
         <div id="feat-caption-title" style="font-size: 0.82em; font-weight: 700; color: var(--global-text-color); margin-bottom: 3px;">
-          Fig. 1a: Proposed Checkerboard ZRS Configuration
+          Fig. 1a: Checkerboard Zhang–Rice Order
         </div>
         <div id="feat-caption-desc" style="font-size: 0.76em; color: var(--global-text-color-light); line-height: 1.35;">
-          Real-space schematic of checkerboard-type Zhang–Rice singlet states within the CuO<sub>2</sub> plane in overdoped LSCO.
+          A spontaneous checkerboard-type Zhang–Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.
         </div>
       </div>
     </div>
@@ -122,27 +122,27 @@ redirect_from:
   var slides = [
     {
       imgId: 'feat-slide-0',
-      tag: 'Theoretical Model',
-      title: 'Fig. 1a: Proposed Checkerboard ZRS Configuration',
-      desc: 'Real-space schematic of checkerboard-type Zhang–Rice singlet states within the CuO<sub>2</sub> plane in overdoped LSCO.'
+      tag: 'Proposed Picture',
+      title: 'Fig. 1a: Checkerboard Zhang–Rice Order',
+      desc: 'A spontaneous checkerboard-type Zhang–Rice order (alternating ZRS and Cu<sup>2+</sup>-like sites) proposed to govern the heavily overdoped regime.'
     },
     {
       imgId: 'feat-slide-1',
-      tag: 'Experimental Observation',
+      tag: 'Spectroscopic Evidence',
       title: 'Fig. 3e,f: Observed ZRS Splitting',
-      desc: 'Nature Communications Fig. 3e,f: High-resolution spectroscopic evidence demonstrating the breakdown and splitting of the single ZRS band into ZR1 and ZR2 states.'
+      desc: 'Spectroscopy reveals ZRS breakdown for <i>x</i> &gt; 0.2, evidenced by ZRS splitting into ZR1 and ZR2 subbands in the heavily overdoped regime (0.2 &lt; <i>x</i> &le; 0.6).'
     },
     {
       imgId: 'feat-slide-2',
-      tag: 'X-ray Spectroscopy',
-      title: 'Fig. 2e: Emergence of Distinct Peak A* in XAS',
-      desc: 'Nature Communications Fig. 2e: Spectral fitting of in-plane O <i>K</i>-edge XAS definitively demonstrating the emergence and rapid growth of new peak A*.'
+      tag: 'X-ray Absorption Spectroscopy',
+      title: 'Fig. 2e: Emergence of Low-Energy Shoulder A*',
+      desc: 'O <i>K</i>-edge XAS and spectral fitting reveal a new low-energy shoulder A* for <i>x</i> &gt; 0.2, indicating a modification of the ZRS-related unoccupied states.'
     },
     {
       imgId: 'feat-slide-3',
       tag: 'DQMC Simulation',
-      title: 'Fig. 4b: Simulated Density of States (DOS)',
-      desc: 'Determinant Quantum Monte Carlo simulations on the three-orbital Emery model reproducing the ZRS splitting trend across <i>p</i><sub>h</sub> = 0.1–0.6.'
+      title: 'Fig. 4b: Orbital-Resolved Spectral Function',
+      desc: 'At a doped-hole concentration of <i>p</i><sub>h</sub> &approx; 0.5 relative to half-filling, calculated spectra exhibit split features and weakened Cu–O coupling, qualitatively supporting ZRS breakdown.'
     }
   ];
 
