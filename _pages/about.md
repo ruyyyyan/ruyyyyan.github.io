@@ -31,18 +31,65 @@ redirect_from:
 
 ## Featured Research
 
-<div style="margin: 1.2em 0; padding: 1.2em; border: 1px solid var(--global-border-color); border-radius: 8px; background: rgba(0, 0, 0, 0.02);">
-  <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">
-    <img src="{{ '/images/checkerboard-zhang-rice-fig1a.png' | relative_url }}" alt="Fig. 1a: Checkerboard-type Zhang-Rice electronic configuration" style="width: 100%; max-width: 560px; display: block; margin: 0 auto 1em auto; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-  </a>
-  <h3 style="margin-top: 0; margin-bottom: 0.4em;">Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors</h3>
-  <p style="margin-bottom: 0.4em;">
-    X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, et al.<br>
-    <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
-  </p>
-  <p style="font-size: 0.88em; color: var(--global-text-color-light); margin-bottom: 0;">
-    <i><b>Fig. 1a:</b> Schematic diagram of the checkerboard-type Zhang–Rice electronic configuration within the CuO<sub>2</sub> plane in heavily overdoped LSCO.</i>
-  </p>
+<div style="margin: 1.5em 0; padding: 1.5em; border: 1px solid var(--global-border-color); border-radius: 12px; background: rgba(0, 0, 0, 0.015); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
+  <div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center;">
+    
+    <!-- Left: Figure 1a Showcase Image -->
+    <div style="flex: 1 1 320px; min-width: 280px; text-align: center;">
+      <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: block; position: relative; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
+        <img src="{{ '/images/checkerboard-zhang-rice-fig1a.png' | relative_url }}" alt="Fig. 1a: Checkerboard-type Zhang-Rice electronic configuration" style="width: 100%; display: block; border-radius: 8px;">
+      </a>
+      <p style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 0.8em; margin-bottom: 0; line-height: 1.45;">
+        <i><b>Fig. 1a:</b> Schematic of checkerboard-type Zhang-Rice electronic configuration within the CuO<sub>2</sub> plane in heavily overdoped LSCO.</i>
+      </p>
+    </div>
+
+    <!-- Right: Paper Details & Key Highlights -->
+    <div style="flex: 1 1 380px; min-width: 290px;">
+      <!-- Badges -->
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.8em;">
+        <span style="font-size: 0.76em; font-weight: 700; background: #c0392b; color: #ffffff; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.03em;">Nature Communications</span>
+        <span style="font-size: 0.76em; font-weight: 600; background: rgba(0, 122, 255, 0.12); color: #007aff; padding: 3px 9px; border-radius: 4px;">2026</span>
+        <span style="font-size: 0.76em; font-weight: 600; background: rgba(52, 199, 89, 0.12); color: #2e7d32; padding: 3px 9px; border-radius: 4px;">Open Access</span>
+      </div>
+
+      <!-- Title -->
+      <h3 style="margin-top: 0; margin-bottom: 0.5em; font-size: 1.22em; line-height: 1.35;">
+        <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="color: inherit; text-decoration: none;">Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors</a>
+      </h3>
+
+      <!-- Authors & Journal Citation -->
+      <p style="font-size: 0.9em; margin-bottom: 0.9em; color: var(--global-text-color); line-height: 1.45;">
+        X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, et al.<br>
+        <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
+      </p>
+
+      <!-- Key Physical Highlights -->
+      <div style="margin-bottom: 1.1em; font-size: 0.88em; line-height: 1.5; color: var(--global-text-color);">
+        <div style="font-weight: 700; margin-bottom: 0.4em; text-transform: uppercase; font-size: 0.8em; letter-spacing: 0.06em; color: var(--global-text-color-light);">Key Highlights</div>
+        <ul style="margin: 0; padding-left: 1.25em; list-style-type: disc;">
+          <li style="margin-bottom: 0.35em;"><b>Checkerboard Configuration:</b> Demonstrating real-space checkerboard-type Zhang-Rice states within the CuO<sub>2</sub> plane in heavily overdoped cuprates.</li>
+          <li style="margin-bottom: 0.35em;"><b>Electronic Correlations:</b> Revealing the persistent role of strong electronic correlation and nanoscale inhomogeneity across the overdoped regime.</li>
+          <li><b>Pairing Mechanism:</b> Providing pivotal microscopic insights into the pairing mechanism of high-<i>T</i><sub>c</sub> superconductors beyond conventional Fermi-liquid pictures.</li>
+        </ul>
+      </div>
+
+      <!-- Tags & Action Button -->
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding-top: 0.9em; border-top: 1px dashed var(--global-border-color);">
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 3px;">#Cuprates</span>
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 3px;">#Superconductivity</span>
+          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 3px;">#Zhang-Rice Singlet</span>
+        </div>
+        <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 0.84em; font-weight: 600; color: #ffffff; background: #2b547e; border-radius: 6px; text-decoration: none;">
+          <span>Read Full Article</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
 </div>
 
 ---
