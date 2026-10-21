@@ -40,7 +40,7 @@ $sidebar-screen-min-width   : 1024px;
 html[data-theme="dark"] {
   --global-base-color                 : #{$primary-color};
   --global-bg-color                   : #{$background};
-  --global-footer-bg-color            : #{$footer};
+  --global-footer-bg-color            : transparent;
   --global-border-color               : #{$border};
   --global-dark-border-color          : #{$border-light};
   --global-code-background-color      : #{$background-light};
