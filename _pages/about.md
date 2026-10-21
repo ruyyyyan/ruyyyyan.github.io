@@ -67,6 +67,12 @@ My research focuses on computational condensed matter and theoretical physics. D
 
 ---
 
+## Professional Memberships
+
+- **Student Member**, [Chinese Physical Society (CPS)](http://www.cps-net.org.cn/)
+
+---
+
 ## News & Updates
 
 - **[Recent]** Exploring nonlinear dynamics and chaotic behaviors in 2D sliding ferroelectrics.

@@ -41,6 +41,10 @@ Teaching Experience
   * *Quantum Mechanics*, Fall semester, 2024 – 2025 (2 sections)
   * *Electrodynamics*, Spring semester, 2024 – 2025 (2 sections)
 
+Professional Memberships
+======
+* **Student Member**, [Chinese Physical Society (CPS)](http://www.cps-net.org.cn/)
+
 Skills & Methodologies
 ======
 * **Theoretical & Computational Physics**: Density Functional Theory (DFT), First-principles calculations, Effective Hamiltonian construction, Nonlinear dynamics analysis
