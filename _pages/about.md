@@ -31,66 +31,236 @@ redirect_from:
 
 ## Featured Research
 
-<div style="margin: 1.5em 0; padding: 1.5em; border: 1px solid var(--global-border-color); border-radius: 12px; background: rgba(0, 0, 0, 0.015); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
-  <div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center;">
+<div id="featured-research-card" tabindex="0" style="outline: none; margin: 1.5em 0; padding: 1.4em; border: 1px solid var(--global-border-color); border-radius: 12px; background: rgba(0, 0, 0, 0.015); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
+  <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
     
-    <!-- Left: Figure 1a Showcase Image -->
-    <div style="flex: 1 1 320px; min-width: 280px; text-align: center;">
-      <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: block; position: relative; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,0.08);">
-        <img src="{{ '/images/checkerboard-zhang-rice-fig1a.png' | relative_url }}" alt="Fig. 1a: Checkerboard-type Zhang-Rice electronic configuration" style="width: 100%; display: block; border-radius: 8px;">
-      </a>
-      <p style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 0.8em; margin-bottom: 0; line-height: 1.45;">
-        <i><b>Fig. 1a:</b> Schematic of checkerboard-type Zhang-Rice electronic configuration within the CuO<sub>2</sub> plane in heavily overdoped LSCO.</i>
-      </p>
+    <!-- Left: Compact 4-Image Interactive Carousel -->
+    <div style="flex: 0 1 310px; width: 100%; max-width: 320px; margin: 0 auto;">
+      <!-- Image Viewing Box -->
+      <div style="position: relative; width: 100%; height: 215px; display: flex; align-items: center; justify-content: center; background: #ffffff; border-radius: 8px; border: 1px solid rgba(0,0,0,0.08); overflow: hidden; box-shadow: inset 0 0 4px rgba(0,0,0,0.03);">
+        
+        <div id="feat-slide-0" style="display: block; width: 100%; height: 100%; text-align: center;">
+          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 1a)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
+            <img src="{{ '/images/featured-fig1a-checkerboard.png' | relative_url }}" alt="Fig. 1a: Checkerboard ZRS Configuration" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
+          </a>
+        </div>
+
+        <div id="feat-slide-1" style="display: none; width: 100%; height: 100%; text-align: center;">
+          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 3e,f)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
+            <img src="{{ '/images/featured-fig3ef-zrs-splitting.png' | relative_url }}" alt="Fig. 3e,f: Experimental ZRS Splitting" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
+          </a>
+        </div>
+
+        <div id="feat-slide-2" style="display: none; width: 100%; height: 100%; text-align: center;">
+          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 2e)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
+            <img src="{{ '/images/featured-fig2e-xas-peak-a.png' | relative_url }}" alt="Fig. 2e: Emergence of Peak A* in XAS" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
+          </a>
+        </div>
+
+        <div id="feat-slide-3" style="display: none; width: 100%; height: 100%; text-align: center;">
+          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" title="Click to view paper (Fig. 4b)" style="display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;">
+            <img src="{{ '/images/featured-fig4b-dqmc-dos.png' | relative_url }}" alt="Fig. 4b: DQMC Simulated Density of States" style="max-height: 205px; max-width: 95%; object-fit: contain; display: block; margin: auto;">
+          </a>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button type="button" onclick="changeFeaturedSlide(-1)" aria-label="Previous slide" style="position: absolute; left: 6px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; border: none; background: rgba(0,0,0,0.45); color: #ffffff; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 2; line-height: 1; transition: background 0.2s;">&#10094;</button>
+        <button type="button" onclick="changeFeaturedSlide(1)" aria-label="Next slide" style="position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; border-radius: 50%; border: none; background: rgba(0,0,0,0.45); color: #ffffff; font-size: 14px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 2; line-height: 1; transition: background 0.2s;">&#10095;</button>
+
+        <!-- Slide Index Counter Badge -->
+        <span id="feat-counter" style="position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.6); color: #ffffff; font-size: 0.7em; padding: 2px 7px; border-radius: 10px; font-weight: 600; z-index: 2;">1 / 4</span>
+      </div>
+
+      <!-- Dot Indicators -->
+      <div style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 10px;">
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(0)" title="Fig. 1a: ZRS Configuration" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #2b547e; cursor: pointer; padding: 0; transform: scale(1.25); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(1)" title="Fig. 3e,f: ZRS Splitting" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(2)" title="Fig. 2e: XAS Peak A*" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
+        <button type="button" class="feat-dot" onclick="setFeaturedSlide(3)" title="Fig. 4b: DQMC DOS" style="width: 9px; height: 9px; border-radius: 50%; border: none; background: #cccccc; cursor: pointer; padding: 0; transform: scale(1); transition: all 0.2s;"></button>
+      </div>
+
+      <!-- Dynamic Caption Box -->
+      <div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.025); border: 1px solid rgba(0,0,0,0.04); border-radius: 8px; text-align: center; min-height: 68px;">
+        <div id="feat-caption-tag" style="font-size: 0.72em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #2b547e; margin-bottom: 2px;">
+          Step 1: Model Hypothesis
+        </div>
+        <div id="feat-caption-title" style="font-size: 0.82em; font-weight: 700; color: var(--global-text-color); margin-bottom: 3px;">
+          Fig. 1a: Proposed Checkerboard ZRS Configuration
+        </div>
+        <div id="feat-caption-desc" style="font-size: 0.76em; color: var(--global-text-color-light); line-height: 1.35;">
+          Real-space schematic of checkerboard-type Zhang–Rice singlet states within the CuO<sub>2</sub> plane in overdoped LSCO.
+        </div>
+      </div>
     </div>
 
-    <!-- Right: Paper Details & Key Highlights -->
-    <div style="flex: 1 1 380px; min-width: 290px;">
+    <!-- Right: Paper Information & 4 Interactive Step Findings -->
+    <div style="flex: 1 1 340px; min-width: 280px;">
       <!-- Badges -->
-      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.8em;">
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.7em;">
         <span style="font-size: 0.76em; font-weight: 700; background: #c0392b; color: #ffffff; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.03em;">Nature Communications</span>
         <span style="font-size: 0.76em; font-weight: 600; background: rgba(0, 122, 255, 0.12); color: #007aff; padding: 3px 9px; border-radius: 4px;">2026</span>
         <span style="font-size: 0.76em; font-weight: 600; background: rgba(52, 199, 89, 0.12); color: #2e7d32; padding: 3px 9px; border-radius: 4px;">Open Access</span>
       </div>
 
-      <!-- Title -->
-      <h3 style="margin-top: 0; margin-bottom: 0.5em; font-size: 1.22em; line-height: 1.35;">
+      <!-- Paper Title -->
+      <h3 style="margin-top: 0; margin-bottom: 0.4em; font-size: 1.18em; line-height: 1.35;">
         <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="color: inherit; text-decoration: none;">Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors</a>
       </h3>
 
-      <!-- Authors & Journal Citation -->
-      <p style="font-size: 0.9em; margin-bottom: 0.9em; color: var(--global-text-color); line-height: 1.45;">
-        X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, et al.<br>
+      <!-- Complete 16-Author Citation -->
+      <p style="font-size: 0.88em; margin-bottom: 0.75em; color: var(--global-text-color); line-height: 1.45;">
+        X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, M. B. H. Breese, A. Ariando, C. S. Tang, G. A. Sawatzky, M. Jiang, and X. Yin.<br>
         <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
       </p>
 
-      <!-- Key Physical Highlights -->
-      <div style="margin-bottom: 1.1em; font-size: 0.88em; line-height: 1.5; color: var(--global-text-color);">
-        <div style="font-weight: 700; margin-bottom: 0.4em; text-transform: uppercase; font-size: 0.8em; letter-spacing: 0.06em; color: var(--global-text-color-light);">Key Highlights</div>
-        <ul style="margin: 0; padding-left: 1.25em; list-style-type: disc;">
-          <li style="margin-bottom: 0.35em;"><b>Checkerboard Configuration:</b> Demonstrating real-space checkerboard-type Zhang-Rice states within the CuO<sub>2</sub> plane in heavily overdoped cuprates.</li>
-          <li style="margin-bottom: 0.35em;"><b>Electronic Correlations:</b> Revealing the persistent role of strong electronic correlation and nanoscale inhomogeneity across the overdoped regime.</li>
-          <li><b>Pairing Mechanism:</b> Providing pivotal microscopic insights into the pairing mechanism of high-<i>T</i><sub>c</sub> superconductors beyond conventional Fermi-liquid pictures.</li>
-        </ul>
+      <!-- Interactive 4 Key Findings -->
+      <div style="margin-bottom: 0.9em;">
+        <div style="font-weight: 700; margin-bottom: 0.4em; text-transform: uppercase; font-size: 0.76em; letter-spacing: 0.06em; color: var(--global-text-color-light);">
+          Key Scientific Findings (Click step to view figure)
+        </div>
+
+        <div id="feat-item-0" onclick="setFeaturedSlide(0)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid #2b547e; background: rgba(43,84,126,0.08); transition: all 0.2s;">
+          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
+            <b>1. Proposed ZRS Configuration (Fig. 1a):</b> Theoretical hypothesis proposing a spontaneous checkerboard-type Zhang–Rice singlet spatial distribution within the CuO<sub>2</sub> plane in heavily overdoped cuprates.
+          </div>
+        </div>
+
+        <div id="feat-item-1" onclick="setFeaturedSlide(1)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
+          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
+            <b>2. Experimental Observation of ZRS Splitting (Fig. 3e,f):</b> High-resolution spectroscopic evidence demonstrating the breakdown and splitting of the single ZRS band into ZR1 (near <i>E</i><sub>F</sub>) and ZR2 (higher energy) for <i>x</i> &gt; 0.2.
+          </div>
+        </div>
+
+        <div id="feat-item-2" onclick="setFeaturedSlide(2)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 5px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
+          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
+            <b>3. Emergent Peak A* in XAS (Fig. 2e):</b> Spectral fitting of in-plane O <i>K</i>-edge XAS providing unambiguous evidence for the distinct emergent peak A* (~527.8 eV) alongside peak A.
+          </div>
+        </div>
+
+        <div id="feat-item-3" onclick="setFeaturedSlide(3)" style="cursor: pointer; padding: 6px 10px; margin-bottom: 6px; border-radius: 6px; border-left: 3px solid transparent; background: transparent; transition: all 0.2s;">
+          <div style="font-size: 0.84em; line-height: 1.4; color: var(--global-text-color);">
+            <b>4. DQMC Simulation Agreement (Fig. 4b):</b> Determinant Quantum Monte Carlo calculations on the three-orbital Emery model exhibiting consistent splitting of the ZRS peak in simulated density of states (DOS) across <i>p</i><sub>h</sub> = 0.1–0.6.
+          </div>
+        </div>
       </div>
 
-      <!-- Tags & Action Button -->
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding-top: 0.9em; border-top: 1px dashed var(--global-border-color);">
+      <!-- Tags & Action Buttons -->
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding-top: 0.8em; border-top: 1px dashed var(--global-border-color);">
         <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 3px;">#Cuprates</span>
-          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 3px;">#Superconductivity</span>
-          <span style="font-size: 0.74em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 3px;">#Zhang-Rice Singlet</span>
+          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Cuprates</span>
+          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Superconductivity</span>
+          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Zhang-Rice Singlet</span>
+          <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#DQMC</span>
         </div>
-        <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 0.84em; font-weight: 600; color: #ffffff; background: #2b547e; border-radius: 6px; text-decoration: none;">
-          <span>Read Full Article</span>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-        </a>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; font-size: 0.82em; font-weight: 600; color: #ffffff; background: #2b547e; border-radius: 5px; text-decoration: none;">
+            <span>Read Paper (DOI)</span>
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+          <a href="https://arxiv.org/abs/2512.09547" target="_blank" style="display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; font-size: 0.82em; font-weight: 600; color: #b31b1b; background: rgba(179,27,27,0.1); border-radius: 5px; text-decoration: none;">
+            <span>arXiv:2512.09547</span>
+          </a>
+        </div>
       </div>
 
     </div>
 
   </div>
 </div>
+
+<script>
+(function() {
+  var slides = [
+    {
+      imgId: 'feat-slide-0',
+      tag: 'Step 1: Model Hypothesis',
+      title: 'Fig. 1a: Proposed Checkerboard ZRS Configuration',
+      desc: 'Real-space schematic of checkerboard-type Zhang–Rice singlet states within the CuO<sub>2</sub> plane in overdoped LSCO.'
+    },
+    {
+      imgId: 'feat-slide-1',
+      tag: 'Step 2: Experimental Observation',
+      title: 'Fig. 3e,f: Experimental ZRS Splitting',
+      desc: 'Spectroscopic evidence showing the breakdown and splitting of the single ZRS band into ZR1 and ZR2 states for <i>x</i> &gt; 0.2.'
+    },
+    {
+      imgId: 'feat-slide-2',
+      tag: 'Step 3: Spectral Evidence',
+      title: 'Fig. 2e: Emergence of Distinct New Peak A* in XAS',
+      desc: 'Spectral fitting of in-plane O <i>K</i>-edge XAS definitively demonstrating the emergence and rapid growth of new peak A*.'
+    },
+    {
+      imgId: 'feat-slide-3',
+      tag: 'Step 4: Theoretical Simulation',
+      title: 'Fig. 4b: DQMC Simulated Density of States (DOS)',
+      desc: 'Determinant Quantum Monte Carlo simulations on the three-orbital Emery model reproducing the ZRS splitting trend across <i>p</i><sub>h</sub> = 0.1–0.6.'
+    }
+  ];
+
+  var currentIndex = 0;
+
+  function updateCarousel(index) {
+    if (index < 0) index = slides.length - 1;
+    if (index >= slides.length) index = 0;
+    currentIndex = index;
+
+    for (var i = 0; i < slides.length; i++) {
+      var slideEl = document.getElementById(slides[i].imgId);
+      if (slideEl) {
+        slideEl.style.display = (i === currentIndex) ? 'block' : 'none';
+      }
+    }
+
+    var counterEl = document.getElementById('feat-counter');
+    if (counterEl) counterEl.textContent = (currentIndex + 1) + ' / ' + slides.length;
+
+    var tagEl = document.getElementById('feat-caption-tag');
+    var titleEl = document.getElementById('feat-caption-title');
+    var descEl = document.getElementById('feat-caption-desc');
+    if (tagEl) tagEl.textContent = slides[currentIndex].tag;
+    if (titleEl) titleEl.innerHTML = slides[currentIndex].title;
+    if (descEl) descEl.innerHTML = slides[currentIndex].desc;
+
+    var dots = document.querySelectorAll('.feat-dot');
+    for (var d = 0; d < dots.length; d++) {
+      dots[d].style.background = (d === currentIndex) ? '#2b547e' : '#cccccc';
+      dots[d].style.transform = (d === currentIndex) ? 'scale(1.25)' : 'scale(1)';
+    }
+
+    for (var k = 0; k < slides.length; k++) {
+      var itemEl = document.getElementById('feat-item-' + k);
+      if (itemEl) {
+        if (k === currentIndex) {
+          itemEl.style.borderLeft = '3px solid #2b547e';
+          itemEl.style.background = 'rgba(43, 84, 126, 0.08)';
+        } else {
+          itemEl.style.borderLeft = '3px solid transparent';
+          itemEl.style.background = 'transparent';
+        }
+      }
+    }
+  }
+
+  window.setFeaturedSlide = function(index) {
+    updateCarousel(index);
+  };
+
+  window.changeFeaturedSlide = function(step) {
+    updateCarousel(currentIndex + step);
+  };
+
+  var card = document.getElementById('featured-research-card');
+  if (card) {
+    card.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowLeft') {
+        updateCarousel(currentIndex - 1);
+      } else if (e.key === 'ArrowRight') {
+        updateCarousel(currentIndex + 1);
+      }
+    });
+  }
+})();
+</script>
 
 ---
 
