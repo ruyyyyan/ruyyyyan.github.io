@@ -293,7 +293,7 @@ redirect_from:
 
 ## Professional Memberships
 
-- **Student Member**, [Chinese Physical Society (CPS)](http://www.cps-net.org.cn/)
+- **Student Member**, [Chinese Physical Society (CPS)](https://www.cps-net.org.cn/home/index/index_en.do)
 
 ---
 
