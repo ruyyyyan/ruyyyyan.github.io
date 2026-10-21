@@ -20,15 +20,6 @@ redirect_from:
 
 ---
 
-## Research Interests
-
-- **Ferroelectric Physics & 2D Materials**: Sliding ferroelectricity, polarization switching, inter-layer couplings, and topological / domain wall structures.
-- **Nonlinear Dynamics & Chaos**: Chaotic dynamics and nonlinear response in low-dimensional ferroelectric and multistable systems.
-- **First-Principles Calculations & Effective Hamiltonian**: Density functional theory (DFT), constructing effective Hamiltonian models, and large-scale atomistic simulations.
-- **Strongly Correlated Electron Systems & Superconductivity**: Many-body physics, electronic correlations, and mechanism of unconventional superconductivity.
-
----
-
 ## Featured Research
 
 <div id="featured-research-card" tabindex="0" style="outline: none; margin: 1.5em 0; padding: 1.4em; border: 1px solid var(--global-border-color); border-radius: 12px; background: rgba(0, 0, 0, 0.015); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
@@ -231,6 +222,15 @@ redirect_from:
   startAutoPlay();
 })();
 </script>
+
+---
+
+## Research Interests
+
+- **Ferroelectric Physics & 2D Materials**: Sliding ferroelectricity, polarization switching, inter-layer couplings, and topological / domain wall structures.
+- **Nonlinear Dynamics & Chaos**: Chaotic dynamics and nonlinear response in low-dimensional ferroelectric and multistable systems.
+- **First-Principles Calculations & Effective Hamiltonian**: Density functional theory (DFT), constructing effective Hamiltonian models, and large-scale atomistic simulations.
+- **Strongly Correlated Electron Systems & Superconductivity**: Many-body physics, electronic correlations, and mechanism of unconventional superconductivity.
 
 ---
 
