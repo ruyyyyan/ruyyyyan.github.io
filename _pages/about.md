@@ -49,6 +49,14 @@ My research focuses on computational condensed matter and theoretical physics. D
 
 ---
 
+## Teaching Experience
+
+- **Teaching Assistant**, Soochow University
+  - *Quantum Mechanics*, Fall semester, 2024 – 2025 (2 sections)
+  - *Electrodynamics*, Spring semester, 2024 – 2025 (2 sections)
+
+---
+
 ## News & Updates
 
 - **[Recent]** Exploring nonlinear dynamics and chaotic behaviors in 2D sliding ferroelectrics.

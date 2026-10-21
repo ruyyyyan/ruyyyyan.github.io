@@ -35,6 +35,12 @@ Conferences & Workshops
 * **The Conference of Condensed Matter Physics 2026 (CCMP 2026)**, Yangtze River Delta Physics Research Center, Liyang, China, Jun 2026
 * **The 14th Workshop on Quantum Many-Body Computation (QMBC 2026)**, 2026
 
+Teaching Experience
+======
+* **Teaching Assistant**, Soochow University
+  * *Quantum Mechanics*, Fall semester, 2024 – 2025 (2 sections)
+  * *Electrodynamics*, Spring semester, 2024 – 2025 (2 sections)
+
 Skills & Methodologies
 ======
 * **Theoretical & Computational Physics**: Density Functional Theory (DFT), First-principles calculations, Effective Hamiltonian construction, Nonlinear dynamics analysis
