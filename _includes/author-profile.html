@@ -17,7 +17,8 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio" {% if author.motto %}style="margin-bottom: 6px;"{% endif %}>{{ author.bio }}</p>{% endif %}
+    {% if author.motto %}<p class="author__motto" style="font-size: 0.88em; font-style: italic; color: var(--global-text-color-light); margin: 0 0 16px 0; line-height: 1.4;">“{{ author.motto }}”</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
