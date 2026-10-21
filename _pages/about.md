@@ -12,7 +12,8 @@ redirect_from:
     <p style="margin-top: 0;">I am currently a Ph.D. student majoring in <b>Theoretical Physics</b> at <a href="https://eng.suda.edu.cn/" target="_blank"><b>Soochow University</b></a>.</p>
     <p style="margin-bottom: 0;">My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on <b>strongly correlated electron systems</b> and <b>superconductivity physics</b>. For my doctoral research, I focus on <b>ferroelectric physics</b>, employing <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>. Recently, I have developed a keen interest in exploring <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>.</p>
   </div>
-  <div style="flex: 0 0 260px; max-width: 260px; display: flex; justify-content: center; align-items: center; margin: 0 auto;">
+  <div style="flex: 0 0 260px; max-width: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto;">
+    <div style="font-size: 0.78em; font-weight: 700; letter-spacing: 0.08em; color: var(--global-text-color-light); text-transform: uppercase; margin-bottom: 8px; text-align: center;">GLOBAL VISITORS</div>
     <script src="https://revolvermaps2.com/embed.js" data-site="pthdsyars8tc" data-size="260" data-theme="night" data-color="ffb23f" async></script>
   </div>
 </div>
