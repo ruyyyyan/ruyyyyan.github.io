@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. student majoring in **Theoretical Physics** at [**Soochow University**](https://maps.app.goo.gl/TdjrXVK8eJAxCuNe8).
+I am currently a Ph.D. student majoring in **Theoretical Physics** at [**Soochow University**](https://eng.suda.edu.cn/).
 
 My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on **strongly correlated electron systems** and **superconductivity physics**. For my doctoral research, I focus on **ferroelectric physics**, employing **first-principles (ab initio) calculations** and **effective Hamiltonian methods**. Recently, I have developed a keen interest in exploring **chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics**.
 
