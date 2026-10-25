@@ -29,12 +29,17 @@ redirect_from:
     </div>
   </div>
 
-  <div style="flex: 0 1 260px; max-width: 280px; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto;">
+  <div style="flex: 0 1 270px; max-width: 280px; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto;">
     <div style="font-size: 0.76em; font-weight: 700; letter-spacing: 0.08em; color: var(--global-text-color-light); text-transform: uppercase; margin-bottom: 8px; text-align: center; display: flex; align-items: center; gap: 6px;">
       <i class="fas fa-globe-americas" style="color: #2b547e;"></i> GLOBAL VISITORS
     </div>
-    <div style="width: 100%; min-height: 260px; display: flex; align-items: center; justify-content: center; border-radius: 12px; overflow: hidden; background: radial-gradient(circle, rgba(43, 84, 126, 0.05) 0%, rgba(0,0,0,0.01) 70%);">
-      <script src="https://revolvermaps2.com/embed.js" data-site="pthdsyars8tc" data-size="260" data-theme="blue" data-color="ffb23f" async></script>
+    <div style="width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 12px; padding: 12px 8px 10px 8px; background: rgba(0, 0, 0, 0.02); border: 1px solid var(--global-border-color); box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);">
+      <div style="width: 250px; height: 250px; display: flex; align-items: center; justify-content: center;">
+        <canvas id="visitor-globe-canvas" style="width: 250px; height: 250px; cursor: grab; user-select: none; touch-action: none;"></canvas>
+      </div>
+      <div style="margin-top: 8px; font-size: 0.72em; font-weight: 600; color: #059669; background: rgba(16, 185, 129, 0.1); padding: 3px 10px; border-radius: 12px; display: inline-flex; align-items: center; gap: 5px; letter-spacing: 0.02em;">
+        <span style="width: 6px; height: 6px; border-radius: 50%; background: #10b981; display: inline-block;"></span> 3D Interactive Globe
+      </div>
     </div>
   </div>
 </div>
@@ -579,3 +584,6 @@ redirect_from:
   </div>
 
 </div>
+
+<!-- 3D Interactive Visitor Globe Script -->
+<script src="{{ '/assets/js/visitor-globe.js' | relative_url }}"></script>
