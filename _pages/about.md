@@ -15,16 +15,27 @@ redirect_from:
   </div>
 </div>
 
-<!-- Hero Intro -->
-<div style="margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color);">
-  <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student majoring in <b>Theoretical Physics</b> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
-  <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on <b>strongly correlated electron systems</b> and <b>superconductivity physics</b>. For my doctoral research, I focus on <b>ferroelectric physics</b>, employing <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>. Recently, I have developed a keen interest in exploring <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>.</p>
-  
-  <!-- Quick Attribute Badges -->
-  <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-    <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-university"></i> Soochow University</span>
-    <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-atom"></i> Theoretical Physics</span>
-    <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-map-marker-alt"></i> Suzhou, China</span>
+<!-- Hero Intro & Visitors Globe -->
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color);">
+  <div style="flex: 1 1 360px; min-width: 280px;">
+    <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student majoring in <b>Theoretical Physics</b> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
+    <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on <b>strongly correlated electron systems</b> and <b>superconductivity physics</b>. For my doctoral research, I focus on <b>ferroelectric physics</b>, employing <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>. Recently, I have developed a keen interest in exploring <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>.</p>
+    
+    <!-- Quick Attribute Badges -->
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-university"></i> Soochow University</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-atom"></i> Theoretical Physics</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-map-marker-alt"></i> Suzhou, China</span>
+    </div>
+  </div>
+
+  <div style="flex: 0 1 260px; max-width: 280px; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto;">
+    <div style="font-size: 0.76em; font-weight: 700; letter-spacing: 0.08em; color: var(--global-text-color-light); text-transform: uppercase; margin-bottom: 8px; text-align: center; display: flex; align-items: center; gap: 6px;">
+      <i class="fas fa-globe-americas" style="color: #2b547e;"></i> GLOBAL VISITORS
+    </div>
+    <div style="width: 100%; min-height: 260px; display: flex; align-items: center; justify-content: center; border-radius: 12px; overflow: hidden; background: radial-gradient(circle, rgba(43, 84, 126, 0.05) 0%, rgba(0,0,0,0.01) 70%);">
+      <script src="https://revolvermaps2.com/embed.js" data-site="pthdsyars8tc" data-size="260" data-theme="blue" data-color="ffb23f" async></script>
+    </div>
   </div>
 </div>
 
