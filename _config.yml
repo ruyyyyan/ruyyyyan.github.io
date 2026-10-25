@@ -1,9 +1,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "dirt"
-title                    : "Yan Peng @ Soochow University"
+title                    : "Yan Peng (彭岩) @ Soochow University"
 title_separator          : "-"
-name                     : &name "Yan Peng"
+name                     : &name "Yan Peng (彭岩)"
 description              : &description "Yan Peng's academic portfolio"
 url                      : "https://ruyyyyan.github.io"
 baseurl                  : ""
@@ -12,7 +12,7 @@ repository               : "ruyyyyan/ruyyyyan.github.io"
 # Site Author
 author:
   avatar                 : "profile.png"
-  name                   : "Yan Peng"
+  name                   : "Yan Peng (彭岩)"
   pronouns               : "he/his"
   bio                    : "Ph.D. Student in Theoretical Physics"
   motto                  : "Save the tumors."
@@ -115,7 +115,7 @@ og_description           :
 
 social:
   type                   : Person
-  name                   : "Yan Peng"
+  name                   : "Yan Peng (彭岩)"
   links                  :
 
 analytics:
