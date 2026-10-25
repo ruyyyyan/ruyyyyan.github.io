@@ -7,22 +7,64 @@ redirect_from:
   - /about.html
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; margin-bottom: 1.5em;">
+<!-- Hero Intro & Visitors Map -->
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color);">
   <div style="flex: 1 1 360px; min-width: 280px;">
-    <p style="margin-top: 0;">I am currently a Ph.D. student majoring in <b>Theoretical Physics</b> at <a href="https://eng.suda.edu.cn/" target="_blank"><b>Soochow University</b></a>.</p>
-    <p style="margin-bottom: 0;">My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on <b>strongly correlated electron systems</b> and <b>superconductivity physics</b>. For my doctoral research, I focus on <b>ferroelectric physics</b>, employing <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>. Recently, I have developed a keen interest in exploring <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>.</p>
+    <p style="margin-top: 0; font-size: 1.05em; line-height: 1.6;">I am currently a Ph.D. student majoring in <b>Theoretical Physics</b> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
+    <p style="margin-bottom: 14px; line-height: 1.6; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. During my master's studies, I primarily worked on <b>strongly correlated electron systems</b> and <b>superconductivity physics</b>. For my doctoral research, I focus on <b>ferroelectric physics</b>, employing <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>. Recently, I have developed a keen interest in exploring <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>.</p>
+    
+    <!-- Quick Attribute Badges -->
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-university"></i> Soochow University</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-atom"></i> Theoretical Physics</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-map-marker-alt"></i> Suzhou, China</span>
+    </div>
   </div>
+
   <div style="flex: 0 1 320px; max-width: 400px; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto;">
-    <div style="font-size: 0.78em; font-weight: 700; letter-spacing: 0.08em; color: var(--global-text-color-light); text-transform: uppercase; margin-bottom: 8px; text-align: center;">GLOBAL VISITORS</div>
+    <div style="font-size: 0.76em; font-weight: 700; letter-spacing: 0.08em; color: var(--global-text-color-light); text-transform: uppercase; margin-bottom: 8px; text-align: center;">GLOBAL VISITORS</div>
     <script src="https://revolvermaps2.com/embed.js" data-site="pthdsyars8tc" data-size="400" data-theme="blue" data-color="ffb23f" async></script>
   </div>
 </div>
 
----
+<!-- Section: Recent News -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 1.8em 0 1em 0;">
+  <h2 style="margin: 0; font-size: 1.35em; display: flex; align-items: center; gap: 8px;">
+    <i class="fas fa-bullhorn" style="color: #2b547e; font-size: 0.9em;"></i> Recent News
+  </h2>
+</div>
 
-## Featured Research
+<div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 2em;">
+  <div style="display: flex; gap: 14px; align-items: flex-start; padding: 12px 16px; background: rgba(0,0,0,0.015); border: 1px solid var(--global-border-color); border-radius: 8px; transition: border-color 0.2s;">
+    <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.12); color: #2b547e; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;">2026</span>
+    <div style="font-size: 0.9em; line-height: 1.5; color: var(--global-text-color);">
+      Our paper <i>"Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors"</i> has been published in <b><i>Nature Communications</i></b>! <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="font-weight: 600; color: #2b547e; text-decoration: none;">[DOI: 10.1038/s41467-026-77985-0]</a>
+    </div>
+  </div>
 
-<div id="featured-research-card" tabindex="0" style="outline: none; margin: 1.5em 0; padding: 1.4em; border: 1px solid var(--global-border-color); border-radius: 12px; background: rgba(0, 0, 0, 0.015); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
+  <div style="display: flex; gap: 14px; align-items: flex-start; padding: 12px 16px; background: rgba(0,0,0,0.015); border: 1px solid var(--global-border-color); border-radius: 8px; transition: border-color 0.2s;">
+    <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(230, 126, 34, 0.12); color: #e67e22; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;">Recent</span>
+    <div style="font-size: 0.9em; line-height: 1.5; color: var(--global-text-color);">
+      Currently exploring <b>chaotic and nonlinear dynamical behaviors</b> in two-dimensional (2D) sliding ferroelectric systems.
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 14px; align-items: flex-start; padding: 12px 16px; background: rgba(0,0,0,0.015); border: 1px solid var(--global-border-color); border-radius: 8px; transition: border-color 0.2s;">
+    <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(46, 125, 50, 0.12); color: #2e7d32; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;">2025</span>
+    <div style="font-size: 0.9em; line-height: 1.5; color: var(--global-text-color);">
+      Awarded the prestigious <b>National Scholarship for Graduate Students</b> by the Ministry of Education of China.
+    </div>
+  </div>
+</div>
+
+<!-- Section: Featured Research -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 2em 0 1em 0;">
+  <h2 style="margin: 0; font-size: 1.35em; display: flex; align-items: center; gap: 8px;">
+    <i class="fas fa-flask" style="color: #2b547e; font-size: 0.9em;"></i> Featured Research
+  </h2>
+</div>
+
+<div id="featured-research-card" tabindex="0" style="outline: none; margin: 1em 0 2em 0; padding: 1.4em; border: 1px solid var(--global-border-color); border-radius: 12px; background: rgba(0, 0, 0, 0.015); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
   <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
     
     <!-- Left: Compact 4-Image Interactive Carousel -->
@@ -292,51 +334,236 @@ redirect_from:
 })();
 </script>
 
----
+<!-- Section: Research Interests (Modern 2x2 Grid) -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 2em 0 1em 0;">
+  <h2 style="margin: 0; font-size: 1.35em; display: flex; align-items: center; gap: 8px;">
+    <i class="fas fa-compass" style="color: #2b547e; font-size: 0.9em;"></i> Research Interests
+  </h2>
+</div>
 
-## Research Interests
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 2em;">
+  
+  <!-- Topic 1 -->
+  <div style="padding: 1.25em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+        <span style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: rgba(43, 84, 126, 0.1); color: #2b547e; font-size: 15px; flex-shrink: 0;">
+          <i class="fas fa-layer-group"></i>
+        </span>
+        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Ferroelectric Physics & 2D Materials</h3>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 0.88em; color: var(--global-text-color-light); line-height: 1.5;">
+        Sliding ferroelectricity, polarization switching, inter-layer couplings, and topological / domain wall structures in low-dimensional van der Waals systems.
+      </p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#SlidingFerroelectrics</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#DomainWalls</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#vdW2D</span>
+    </div>
+  </div>
 
-- **Ferroelectric Physics & 2D Materials**: Sliding ferroelectricity, polarization switching, inter-layer couplings, and topological / domain wall structures.
-- **Nonlinear Dynamics & Chaos**: Chaotic dynamics and nonlinear response in low-dimensional ferroelectric and multistable systems.
-- **First-Principles Calculations & Effective Hamiltonian**: Density functional theory (DFT), constructing effective Hamiltonian models, and large-scale atomistic simulations.
-- **Strongly Correlated Electron Systems & Superconductivity**: Many-body physics, electronic correlations, and mechanism of unconventional superconductivity.
+  <!-- Topic 2 -->
+  <div style="padding: 1.25em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+        <span style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: rgba(230, 126, 34, 0.1); color: #e67e22; font-size: 15px; flex-shrink: 0;">
+          <i class="fas fa-wave-square"></i>
+        </span>
+        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Nonlinear Dynamics & Chaos</h3>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 0.88em; color: var(--global-text-color-light); line-height: 1.5;">
+        Chaotic dynamics, bifurcations, and nonlinear multi-harmonic response in low-dimensional ferroelectric and multistable condensed matter systems.
+      </p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Chaos</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Bifurcation</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#NonlinearResponse</span>
+    </div>
+  </div>
 
----
+  <!-- Topic 3 -->
+  <div style="padding: 1.25em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+        <span style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: rgba(46, 125, 50, 0.1); color: #2e7d32; font-size: 15px; flex-shrink: 0;">
+          <i class="fas fa-microchip"></i>
+        </span>
+        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">First-Principles & Effective Models</h3>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 0.88em; color: var(--global-text-color-light); line-height: 1.5;">
+        Density functional theory (DFT) electronic structure calculations, constructing effective Hamiltonian models, and multiscale atomistic simulations.
+      </p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#DFT</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#EffectiveHamiltonian</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#VASP</span>
+    </div>
+  </div>
 
-## Education & Research Experience
+  <!-- Topic 4 -->
+  <div style="padding: 1.25em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+        <span style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: rgba(192, 57, 43, 0.1); color: #c0392b; font-size: 15px; flex-shrink: 0;">
+          <i class="fas fa-atom"></i>
+        </span>
+        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Correlated Electrons & Superconductivity</h3>
+      </div>
+      <p style="margin: 0 0 12px 0; font-size: 0.88em; color: var(--global-text-color-light); line-height: 1.5;">
+        Many-body physics, electronic correlations, Zhang–Rice singlet states, and mechanisms of unconventional high-temperature superconductivity.
+      </p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Cuprates</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#DQMC</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#HighTc</span>
+    </div>
+  </div>
 
-- **Ph.D. in Theoretical Physics** | Soochow University, *2026 – Present*
-  - *Advisor*: [Prof. Bin Xu](https://web.suda.edu.cn/binxu19/index.html)
-  - *Research Focus*: Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, and nonlinear / chaotic dynamics in 2D sliding ferroelectrics.
-- **M.S. in Theoretical Physics** | Soochow University, *2024 – 2026*
-  - *Advisor*: [Prof. Mi Jiang](https://web.suda.edu.cn/jm/)
-  - *Research Focus*: Strongly correlated electron systems and superconductivity physics.
-- **B.S. in Physics** | Soochow University, *2020 – 2024*
-- *(Academic genealogy: [Academic Tree](https://academictree.org/physics/tree.php?pid=980247&fontsize=1&pnodecount=4&cnodecount=2))*
+</div>
 
----
+<!-- Section: Education & Experience (Timeline) -->
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin: 2em 0 1em 0;">
+  <h2 style="margin: 0; font-size: 1.35em; display: flex; align-items: center; gap: 8px;">
+    <i class="fas fa-graduation-cap" style="color: #2b547e; font-size: 0.9em;"></i> Education & Research Background
+  </h2>
+  <a href="https://academictree.org/physics/tree.php?pid=980247&fontsize=1&pnodecount=4&cnodecount=2" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.8em; font-weight: 600; padding: 4px 12px; border: 1px solid var(--global-border-color); border-radius: 16px; color: var(--global-text-color); text-decoration: none; background: rgba(0,0,0,0.02); transition: all 0.2s;">
+    <i class="fas fa-sitemap" style="color: #2b547e;"></i> Academic Genealogy Tree &rarr;
+  </a>
+</div>
 
-## Honors & Awards
+<div style="position: relative; margin-left: 12px; padding-left: 24px; border-left: 2px solid rgba(43, 84, 126, 0.2); margin-bottom: 2.2em;">
+  
+  <!-- Ph.D. Item -->
+  <div style="position: relative; margin-bottom: 1.8em;">
+    <span style="position: absolute; left: -30px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #2b547e; border: 2px solid #ffffff; box-shadow: 0 0 0 2px rgba(43, 84, 126, 0.25);"></span>
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <h3 style="margin: 0; font-size: 1.08em; display: flex; align-items: center; gap: 8px;">
+        <span style="background: #2b547e; color: #ffffff; font-size: 0.72em; font-weight: 700; padding: 2px 7px; border-radius: 4px;">Ph.D.</span>
+        <span>Theoretical Physics</span>
+      </h3>
+      <span style="font-size: 0.84em; font-weight: 600; color: #2b547e;">2026 – Present</span>
+    </div>
+    <div style="font-size: 0.9em; color: var(--global-text-color); margin-top: 3px;">
+      Soochow University &bull; Advisor: <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Bin Xu</a>
+    </div>
+    <p style="margin: 6px 0 0 0; font-size: 0.85em; color: var(--global-text-color-light); line-height: 1.45;">
+      <i>Research focus:</i> Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, and nonlinear / chaotic dynamics in 2D sliding ferroelectrics.
+    </p>
+  </div>
 
-- **National Scholarship for Graduate Students**, Ministry of Education of China, 2025
+  <!-- M.S. Item -->
+  <div style="position: relative; margin-bottom: 1.8em;">
+    <span style="position: absolute; left: -30px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #2b547e; border: 2px solid #ffffff; box-shadow: 0 0 0 2px rgba(43, 84, 126, 0.25);"></span>
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <h3 style="margin: 0; font-size: 1.08em; display: flex; align-items: center; gap: 8px;">
+        <span style="background: #4a6984; color: #ffffff; font-size: 0.72em; font-weight: 700; padding: 2px 7px; border-radius: 4px;">M.S.</span>
+        <span>Theoretical Physics</span>
+      </h3>
+      <span style="font-size: 0.84em; font-weight: 600; color: var(--global-text-color-light);">2024 – 2026</span>
+    </div>
+    <div style="font-size: 0.9em; color: var(--global-text-color); margin-top: 3px;">
+      Soochow University &bull; Advisor: <a href="https://web.suda.edu.cn/jm/" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Mi Jiang</a>
+    </div>
+    <p style="margin: 6px 0 0 0; font-size: 0.85em; color: var(--global-text-color-light); line-height: 1.45;">
+      <i>Research focus:</i> Strongly correlated electron systems, high-Tc superconductivity physics, and three-orbital Emery model DQMC simulations.
+    </p>
+  </div>
 
----
+  <!-- B.S. Item -->
+  <div style="position: relative;">
+    <span style="position: absolute; left: -30px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #8899a6; border: 2px solid #ffffff; box-shadow: 0 0 0 2px rgba(136, 153, 166, 0.25);"></span>
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <h3 style="margin: 0; font-size: 1.08em; display: flex; align-items: center; gap: 8px;">
+        <span style="background: #8899a6; color: #ffffff; font-size: 0.72em; font-weight: 700; padding: 2px 7px; border-radius: 4px;">B.S.</span>
+        <span>Physics</span>
+      </h3>
+      <span style="font-size: 0.84em; font-weight: 600; color: var(--global-text-color-light);">2020 – 2024</span>
+    </div>
+    <div style="font-size: 0.9em; color: var(--global-text-color); margin-top: 3px;">
+      Soochow University
+    </div>
+  </div>
 
-## Teaching Experience
+</div>
 
-- **Teaching Assistant**, Soochow University
-  - *Quantum Mechanics*, Fall semester, 2024 – 2025 (2 sections)
-  - *Electrodynamics*, Spring semester, 2024 – 2025 (2 sections)
+<!-- Section: Honors, Teaching & Affiliations (Balanced 2-Column Grid) -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin: 2em 0 1em 0;">
+  <h2 style="margin: 0; font-size: 1.35em; display: flex; align-items: center; gap: 8px;">
+    <i class="fas fa-award" style="color: #2b547e; font-size: 0.9em;"></i> Honors, Teaching & Affiliations
+  </h2>
+</div>
 
----
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; margin-bottom: 2em;">
+  
+  <!-- Left Column: Honors & Affiliations -->
+  <div style="display: flex; flex-direction: column; gap: 14px;">
+    <!-- Honors Card -->
+    <div style="padding: 1.2em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012);">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+        <span style="display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 6px; background: rgba(230, 126, 34, 0.12); color: #e67e22; font-size: 14px;">
+          <i class="fas fa-medal"></i>
+        </span>
+        <h3 style="margin: 0; font-size: 1.02em;">Honors & Awards</h3>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+        <div>
+          <div style="font-size: 0.9em; font-weight: 600; color: var(--global-text-color);">National Scholarship for Graduate Students</div>
+          <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Ministry of Education of China</div>
+        </div>
+        <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.1); color: #2b547e; padding: 2px 7px; border-radius: 4px;">2025</span>
+      </div>
+    </div>
 
-## Professional Memberships
+    <!-- Affiliations Card -->
+    <div style="padding: 1.2em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012);">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+        <span style="display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 6px; background: rgba(43, 84, 126, 0.12); color: #2b547e; font-size: 14px;">
+          <i class="fas fa-users"></i>
+        </span>
+        <h3 style="margin: 0; font-size: 1.02em;">Professional Memberships</h3>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+        <div style="font-size: 0.9em; color: var(--global-text-color);">
+          <b>Student Member</b>, <a href="https://www.cps-net.org.cn/home/index/index_en.do" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;">Chinese Physical Society (CPS)</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-- **Student Member**, [Chinese Physical Society (CPS)](https://www.cps-net.org.cn/home/index/index_en.do)
+  <!-- Right Column: Teaching Experience -->
+  <div style="padding: 1.2em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012); display: flex; flex-direction: column;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+      <span style="display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 6px; background: rgba(46, 125, 50, 0.12); color: #2e7d32; font-size: 14px;">
+        <i class="fas fa-chalkboard-teacher"></i>
+      </span>
+      <h3 style="margin: 0; font-size: 1.02em;">Teaching Experience</h3>
+    </div>
+    
+    <div style="font-size: 0.88em; font-weight: 600; color: var(--global-text-color); margin-bottom: 8px;">
+      Teaching Assistant &bull; Soochow University
+    </div>
 
----
+    <div style="display: flex; flex-direction: column; gap: 8px; flex: 1;">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; background: rgba(0,0,0,0.02); border-radius: 6px;">
+        <div>
+          <span style="font-size: 0.88em; font-weight: 500;">Quantum Mechanics</span>
+          <span style="font-size: 0.76em; color: var(--global-text-color-light); margin-left: 6px;">(2 sections)</span>
+        </div>
+        <span style="font-size: 0.76em; color: var(--global-text-color-light); font-weight: 600;">Fall 2024–2025</span>
+      </div>
 
-## News & Updates
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; background: rgba(0,0,0,0.02); border-radius: 6px;">
+        <div>
+          <span style="font-size: 0.88em; font-weight: 500;">Electrodynamics</span>
+          <span style="font-size: 0.76em; color: var(--global-text-color-light); margin-left: 6px;">(2 sections)</span>
+        </div>
+        <span style="font-size: 0.76em; color: var(--global-text-color-light); font-weight: 600;">Spring 2024–2025</span>
+      </div>
+    </div>
+  </div>
 
-- **[Recent]** Exploring nonlinear dynamics and chaotic behaviors in 2D sliding ferroelectrics.
-- **[2025]** Awarded the **National Scholarship for Graduate Students**, Ministry of Education of China.
+</div>
