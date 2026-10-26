@@ -55,7 +55,77 @@
     tryFetch(0);
   }
 
+  function initVisitorCounter() {
+    var pvEl = document.getElementById('site_pv_value') || document.getElementById('busuanzi_value_site_pv');
+    var uvEl = document.getElementById('site_uv_value') || document.getElementById('busuanzi_value_site_uv');
+    if (!pvEl && !uvEl) return;
+
+    var cached = null;
+    try {
+      var raw = localStorage.getItem('ruyyyyan_stats_v2');
+      if (raw) cached = JSON.parse(raw);
+    } catch(e) {}
+
+    if (cached) {
+      if (pvEl && cached.pv) pvEl.textContent = cached.pv;
+      if (uvEl && cached.uv) uvEl.textContent = cached.uv;
+    }
+
+    var isNewUv = false;
+    try {
+      if (!sessionStorage.getItem('ruyyyyan_uv_counted')) {
+        isNewUv = true;
+        sessionStorage.setItem('ruyyyyan_uv_counted', '1');
+      }
+    } catch(e) {}
+
+    var apiUrl = 'https://events.vercount.one/api/v2/log';
+    var payload = JSON.stringify({
+      url: window.location.href.split('#')[0].split('?')[0],
+      isNewUv: isNewUv
+    });
+
+    function fallbackStats() {
+      var pv = (cached && cached.pv) ? (cached.pv + 1) : 1;
+      var uv = (cached && cached.uv) ? (cached.uv + (isNewUv ? 1 : 0)) : 1;
+      if (pvEl && (pvEl.textContent === '--' || !pvEl.textContent)) pvEl.textContent = pv;
+      if (uvEl && (uvEl.textContent === '--' || !uvEl.textContent)) uvEl.textContent = uv;
+    }
+
+    try {
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', apiUrl, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.timeout = 4000;
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          try {
+            var res = JSON.parse(xhr.responseText);
+            if (res && res.data) {
+              var pv = res.data.site_pv || res.data.page_pv;
+              var uv = res.data.site_uv;
+              if (pv && pvEl) pvEl.textContent = pv;
+              if (uv && uvEl) uvEl.textContent = uv;
+              try {
+                localStorage.setItem('ruyyyyan_stats_v2', JSON.stringify({ pv: pv, uv: uv }));
+              } catch(e) {}
+              return;
+            }
+          } catch(e) {}
+        }
+        fallbackStats();
+      };
+      xhr.onerror = fallbackStats;
+      xhr.ontimeout = fallbackStats;
+      xhr.send(payload);
+    } catch(err) {
+      fallbackStats();
+    }
+  }
+
   function initGlobe() {
+    initVisitorCounter();
+
     var canvas = document.getElementById('visitor-globe-canvas');
     if (!canvas) return;
 

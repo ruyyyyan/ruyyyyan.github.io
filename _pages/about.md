@@ -40,11 +40,11 @@ redirect_from:
       <div id="visitor-live-badge" style="margin-top: 8px; font-size: 0.72em; font-weight: 600; color: #059669; background: rgba(16, 185, 129, 0.1); padding: 3px 10px; border-radius: 12px; display: inline-flex; align-items: center; gap: 5px; letter-spacing: 0.02em; transition: all 0.3s ease;">
         <span style="width: 6px; height: 6px; border-radius: 50%; background: #10b981; display: inline-block;"></span> Locating visitor...
       </div>
-      <div style="margin-top: 5px; font-size: 0.68em; color: var(--global-text-color-light); display: flex; align-items: center; gap: 4px;">
+      <div id="visitor-stats-row" style="margin-top: 5px; font-size: 0.68em; color: var(--global-text-color-light); display: flex; align-items: center; gap: 4px;">
         <i class="fas fa-eye" style="font-size: 0.85em; opacity: 0.7;"></i>
-        <span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv">--</span> views</span>
+        <span><span id="site_pv_value">--</span> views</span>
         <span style="opacity: 0.5;">&bull;</span>
-        <span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv">--</span> visits</span>
+        <span><span id="site_uv_value">--</span> visits</span>
       </div>
     </div>
   </div>
@@ -591,6 +591,5 @@ redirect_from:
 
 </div>
 
-<!-- 3D Interactive Visitor Globe Script & Busuanzi Analytics -->
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 3D Interactive Visitor Globe Script -->
 <script src="{{ '/assets/js/visitor-globe.js' | relative_url }}"></script>
