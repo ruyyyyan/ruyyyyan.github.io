@@ -39,7 +39,7 @@ Teaching Experience
 ======
 * **Teaching Assistant**, Soochow University
   * *Quantum Mechanics*, Fall semester, 2024 – 2025 (2 sections)
-  * *Electrodynamics*, Spring semester, 2024 – 2025 (2 sections)
+  * *Electrodynamics*, Spring semester, 2025 – 2026 (2 sections)
 
 Professional Memberships
 ======

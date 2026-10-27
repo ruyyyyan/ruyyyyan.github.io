@@ -584,7 +584,7 @@ redirect_from:
           <span style="font-size: 0.88em; font-weight: 500;">Electrodynamics</span>
           <span style="font-size: 0.76em; color: var(--global-text-color-light); margin-left: 6px;">(2 sections)</span>
         </div>
-        <span style="font-size: 0.76em; color: var(--global-text-color-light); font-weight: 600;">Spring 2024–2025</span>
+        <span style="font-size: 0.76em; color: var(--global-text-color-light); font-weight: 600;">Spring 2025–2026</span>
       </div>
     </div>
   </div>
