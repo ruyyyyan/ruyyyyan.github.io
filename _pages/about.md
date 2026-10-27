@@ -7,25 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Soochow University Campus Scenic Banner -->
+<!-- Soochow University & School of Physical Science and Technology Scenic Banner -->
 <div style="position: relative; width: 100%; height: 185px; border-radius: 12px; overflow: hidden; margin-bottom: 1.8em; box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06); border: 1px solid var(--global-border-color);">
-  <img src="{{ '/images/suda-campus.jpg' | relative_url }}" alt="Soochow University Tiancizhuang Campus" style="width: 100%; height: 100%; object-fit: cover; object-position: center 38%; display: block; filter: saturate(1.05);">
-  <div style="position: absolute; bottom: 10px; right: 12px; background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color: #ffffff; padding: 4px 12px; border-radius: 20px; font-size: 0.76em; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; letter-spacing: 0.02em;">
-    <i class="fas fa-university" style="font-size: 0.88em; color: #ffca28;"></i> Soochow University &middot; Tiancizhuang Campus
+  <img src="{{ '/images/suda-campus.jpg' | relative_url }}" alt="Soochow University Tiancizhuang Campus - School of Physical Science and Technology" style="width: 100%; height: 100%; object-fit: cover; object-position: center 38%; display: block; filter: saturate(1.05);">
+  <div style="position: absolute; bottom: 10px; right: 12px; background: rgba(0, 0, 0, 0.62); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #ffffff; padding: 5px 14px; border-radius: 20px; font-size: 0.76em; font-weight: 500; display: inline-flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 6px 10px; letter-spacing: 0.02em; box-shadow: 0 2px 10px rgba(0,0,0,0.3); max-width: calc(100% - 24px);">
+    <span style="display: inline-flex; align-items: center; gap: 5px;"><i class="fas fa-atom" style="font-size: 0.92em; color: #38bdf8;"></i> School of Physical Science and Technology</span>
+    <span style="opacity: 0.45; font-size: 0.85em;">&bull;</span>
+    <span style="display: inline-flex; align-items: center; gap: 5px;"><i class="fas fa-university" style="font-size: 0.9em; color: #fbbf24;"></i> Soochow University (Tiancizhuang Campus)</span>
   </div>
 </div>
 
 <!-- Hero Intro & Visitors Globe -->
 <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color);">
   <div style="flex: 1 1 360px; min-width: 280px;">
-    <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student in <b>Theoretical Physics</b> advised by <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
+    <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student in <b>Theoretical Physics</b> advised by <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a> in the <a href="https://physics.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>School of Physical Science and Technology</b></a> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
     <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. For my doctoral research under <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a>, I investigate <b>ferroelectric physics</b> using <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>, with a particular interest in <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>. During my master's studies with <a href="https://web.suda.edu.cn/jm/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Mi Jiang</b></a>, I worked on <b>strongly correlated electron systems</b> and <b>high-T<sub>c</sub> superconductivity physics</b>.</p>
     
     <!-- Quick Attribute Badges -->
     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-university"></i> Soochow University</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-atom"></i> School of Physical Science and Technology</span>
       <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-user-tie"></i> Advisor: Prof. Bin Xu</span>
-      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-atom"></i> Theoretical Physics</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-university"></i> Soochow University</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-compass"></i> Theoretical Physics</span>
       <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-map-marker-alt"></i> Suzhou, China</span>
     </div>
   </div>
@@ -568,7 +571,7 @@ redirect_from:
     </div>
     
     <div style="font-size: 0.88em; font-weight: 600; color: var(--global-text-color); margin-bottom: 8px;">
-      Teaching Assistant &bull; Soochow University
+      Teaching Assistant &bull; School of Physical Science and Technology, Soochow University
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 8px; flex: 1;">

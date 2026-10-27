@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. in Theoretical Physics**, Soochow University, 2026 - Present
+* **Ph.D. in Theoretical Physics**, School of Physical Science and Technology, Soochow University, 2026 - Present
   * Advisor: [Prof. Bin Xu](https://web.suda.edu.cn/binxu19/index.html)
-* **M.S. in Theoretical Physics**, Soochow University, 2024 - 2026
+* **M.S. in Theoretical Physics**, School of Physical Science and Technology, Soochow University, 2024 - 2026
   * Advisor: [Prof. Mi Jiang](https://web.suda.edu.cn/jm/)
-* **B.S. in Physics**, Soochow University, 2020 - 2024
+* **B.S. in Physics**, School of Physical Science and Technology, Soochow University, 2020 - 2024
   * Academic genealogy: [Academic Tree](https://academictree.org/physics/tree.php?pid=980247&fontsize=1&pnodecount=4&cnodecount=2)
 
 Honors & Awards
@@ -37,7 +37,7 @@ Conferences & Workshops
 
 Teaching Experience
 ======
-* **Teaching Assistant**, Soochow University
+* **Teaching Assistant**, School of Physical Science and Technology, Soochow University
   * *Quantum Mechanics*, Fall semester, 2024 – 2025 (2 sections)
   * *Electrodynamics*, Spring semester, 2025 – 2026 (2 sections)
 
