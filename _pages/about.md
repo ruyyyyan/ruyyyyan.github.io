@@ -21,7 +21,7 @@ redirect_from:
 <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color);">
   <div style="flex: 1 1 360px; min-width: 280px;">
     <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student in <b>Theoretical Physics</b> advised by <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a> in the <a href="https://physics.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>School of Physical Science and Technology</b></a> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
-    <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. For my doctoral research under <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a>, I investigate <b>ferroelectric physics</b> using <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>, with a particular interest in <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b>. During my master's studies with <a href="https://physics.suda.edu.cn/a8/a7/c32869a567463/page.htm" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Mi Jiang</b></a>, I worked on <b>strongly correlated electron systems</b> and <b>high-T<sub>c</sub> superconductivity physics</b>.</p>
+    <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. For my doctoral research under <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a>, I investigate <b>ferroelectric physics</b> using <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>, with a particular interest in <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b> as well as the emergent <b>topological chaos in PbTiO<sub>3</sub>/SrTiO<sub>3</sub> (PTO/STO) superlattices</b>. During my master's studies with <a href="https://physics.suda.edu.cn/a8/a7/c32869a567463/page.htm" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Mi Jiang</b></a>, I worked on <b>strongly correlated electron systems</b> and <b>high-T<sub>c</sub> superconductivity physics</b>.</p>
     
     <!-- Quick Attribute Badges -->
     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
@@ -72,7 +72,7 @@ redirect_from:
   <div style="display: flex; gap: 14px; align-items: flex-start; padding: 12px 16px; background: rgba(0,0,0,0.015); border: 1px solid var(--global-border-color); border-radius: 8px; transition: border-color 0.2s;">
     <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(230, 126, 34, 0.12); color: #e67e22; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;">Recent</span>
     <div style="font-size: 0.9em; line-height: 1.5; color: var(--global-text-color);">
-      Currently exploring <b>chaotic and nonlinear dynamical behaviors</b> in two-dimensional (2D) sliding ferroelectric systems.
+      Currently exploring <b>chaotic and nonlinear dynamical behaviors</b> in two-dimensional (2D) sliding ferroelectrics and the emergent <b>topological chaos</b> in PbTiO<sub>3</sub>/SrTiO<sub>3</sub> (PTO/STO) superlattices.
     </div>
   </div>
 
@@ -377,16 +377,16 @@ redirect_from:
         <span style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: rgba(43, 84, 126, 0.1); color: #2b547e; font-size: 15px; flex-shrink: 0;">
           <i class="fas fa-layer-group"></i>
         </span>
-        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Ferroelectric Physics & 2D Materials</h3>
+        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Ferroelectric Physics & Superlattices</h3>
       </div>
       <p style="margin: 0 0 12px 0; font-size: 0.88em; color: var(--global-text-color-light); line-height: 1.5;">
-        Sliding ferroelectricity, polarization switching, inter-layer couplings, and topological / domain wall structures in low-dimensional van der Waals systems.
+        Sliding ferroelectricity, PbTiO<sub>3</sub>/SrTiO<sub>3</sub> (PTO/STO) superlattices, polarization switching, and topological polar textures (vortices, skyrmions, domain walls).
       </p>
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 5px;">
       <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#SlidingFerroelectrics</span>
-      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#DomainWalls</span>
-      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#vdW2D</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#PTO_STO</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#PolarTopologies</span>
     </div>
   </div>
 
@@ -397,16 +397,16 @@ redirect_from:
         <span style="display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; background: rgba(230, 126, 34, 0.1); color: #e67e22; font-size: 15px; flex-shrink: 0;">
           <i class="fas fa-wave-square"></i>
         </span>
-        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Nonlinear Dynamics & Chaos</h3>
+        <h3 style="margin: 0; font-size: 1.05em; line-height: 1.35;">Nonlinear Dynamics & Topological Chaos</h3>
       </div>
       <p style="margin: 0 0 12px 0; font-size: 0.88em; color: var(--global-text-color-light); line-height: 1.5;">
-        Chaotic dynamics, bifurcations, and nonlinear multi-harmonic response in low-dimensional ferroelectric and multistable condensed matter systems.
+        Topological chaos, nonlinear bifurcations, and dynamical response of polar configurations in 2D sliding ferroelectrics and PTO/STO superlattice heterostructures.
       </p>
     </div>
     <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Chaos</span>
-      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Bifurcation</span>
-      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#NonlinearResponse</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#TopologicalChaos</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#NonlinearDynamics</span>
+      <span style="font-size: 0.72em; background: rgba(0,0,0,0.04); color: var(--global-text-color-light); padding: 2px 7px; border-radius: 4px;">#Superlattices</span>
     </div>
   </div>
 
@@ -478,7 +478,7 @@ redirect_from:
       Soochow University &bull; Advisor: <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Bin Xu</a>
     </div>
     <p style="margin: 6px 0 0 0; font-size: 0.85em; color: var(--global-text-color-light); line-height: 1.45;">
-      <i>Research focus:</i> Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, and nonlinear / chaotic dynamics in 2D sliding ferroelectrics.
+      <i>Research focus:</i> Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, nonlinear / chaotic dynamics in 2D sliding ferroelectrics, and topological chaos in PTO/STO superlattices.
     </p>
   </div>
 

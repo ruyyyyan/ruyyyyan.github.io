@@ -25,7 +25,7 @@ Honors & Awards
 Research Interests
 ======
 * Ferroelectric physics and 2D sliding ferroelectricity
-* Nonlinear dynamics and chaotic behaviors in low-dimensional systems
+* Topological chaos and nonlinear dynamics in PTO/STO superlattices and low-dimensional systems
 * First-principles calculations (DFT) and effective Hamiltonian methods
 * Strongly correlated electron systems and superconductivity
 
@@ -48,7 +48,7 @@ Professional Memberships
 Skills & Methodologies
 ======
 * **Theoretical & Computational Physics**: Density Functional Theory (DFT), First-principles calculations, Effective Hamiltonian construction, Nonlinear dynamics analysis
-* **Physics Topics**: Ferroelectrics, 2D Materials, Strongly Correlated Systems, Superconducting physics
+* **Physics Topics**: Ferroelectrics & Superlattices (PTO/STO), 2D Materials, Topological Chaos, Strongly Correlated Systems, Superconducting physics
 * **Scientific Computing & Tools**: Python, Linux / Bash, Git, High-Performance Computing (HPC) clusters
 
 Publications
