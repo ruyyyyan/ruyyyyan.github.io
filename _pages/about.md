@@ -63,6 +63,13 @@ redirect_from:
 
 <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 2em;">
   <div style="display: flex; gap: 14px; align-items: flex-start; padding: 12px 16px; background: rgba(0,0,0,0.015); border: 1px solid var(--global-border-color); border-radius: 8px; transition: border-color 0.2s;">
+    <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.12); color: #2b547e; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;">Nov 2026</span>
+    <div style="font-size: 0.9em; line-height: 1.5; color: var(--global-text-color);">
+      Will attend <b>The 2nd Workshop on Materials Simulation Software and Applications (MSSA 2026)</b> hosted by Fudan University in Shanghai, China (Nov 22–24, 2026).
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 14px; align-items: flex-start; padding: 12px 16px; background: rgba(0,0,0,0.015); border: 1px solid var(--global-border-color); border-radius: 8px; transition: border-color 0.2s;">
     <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.12); color: #2b547e; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;">2026</span>
     <div style="font-size: 0.9em; line-height: 1.5; color: var(--global-text-color);">
       Our paper <i>"Checkerboard-type Zhang-Rice states in overdoped cuprate superconductors"</i> has been published in <b><i>Nature Communications</i></b>! <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank" style="font-weight: 600; color: #2b547e; text-decoration: none;">[DOI: 10.1038/s41467-026-77985-0]</a>
