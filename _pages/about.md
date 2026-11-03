@@ -563,7 +563,7 @@ redirect_from:
         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
           <div>
             <div style="font-size: 0.9em; font-weight: 600; color: var(--global-text-color);">National Encouragement Scholarship</div>
-            <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Ministry of Education of China (Academic Year 2022–2023)</div>
+            <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Department of Education of Jiangsu Province (Academic Year 2022–2023)</div>
           </div>
           <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.1); color: #2b547e; padding: 2px 7px; border-radius: 4px;">2023</span>
         </div>
