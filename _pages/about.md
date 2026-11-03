@@ -537,18 +537,36 @@ redirect_from:
   <div style="display: flex; flex-direction: column; gap: 14px;">
     <!-- Honors Card -->
     <div style="padding: 1.2em; border: 1px solid var(--global-border-color); border-radius: 10px; background: rgba(0,0,0,0.012);">
-      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
         <span style="display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 6px; background: rgba(230, 126, 34, 0.12); color: #e67e22; font-size: 14px;">
           <i class="fas fa-medal"></i>
         </span>
         <h3 style="margin: 0; font-size: 1.02em;">Honors & Awards</h3>
       </div>
-      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
-        <div>
-          <div style="font-size: 0.9em; font-weight: 600; color: var(--global-text-color);">National Scholarship for Graduate Students</div>
-          <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Ministry of Education of China</div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+          <div>
+            <div style="font-size: 0.9em; font-weight: 600; color: var(--global-text-color);">National Scholarship for Graduate Students</div>
+            <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Ministry of Education of China</div>
+          </div>
+          <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.1); color: #2b547e; padding: 2px 7px; border-radius: 4px;">2025</span>
         </div>
-        <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.1); color: #2b547e; padding: 2px 7px; border-radius: 4px;">2025</span>
+
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+          <div>
+            <div style="font-size: 0.9em; font-weight: 600; color: var(--global-text-color);">Second-Class Graduate Academic Scholarship</div>
+            <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Soochow University</div>
+          </div>
+          <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.1); color: #2b547e; padding: 2px 7px; border-radius: 4px;">2024</span>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+          <div>
+            <div style="font-size: 0.9em; font-weight: 600; color: var(--global-text-color);">National Encouragement Scholarship</div>
+            <div style="font-size: 0.82em; color: var(--global-text-color-light); margin-top: 2px;">Ministry of Education of China (Academic Year 2022–2023)</div>
+          </div>
+          <span style="flex-shrink: 0; font-size: 0.76em; font-weight: 700; background: rgba(43, 84, 126, 0.1); color: #2b547e; padding: 2px 7px; border-radius: 4px;">2023</span>
+        </div>
       </div>
     </div>
 

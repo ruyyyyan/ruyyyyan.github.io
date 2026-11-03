@@ -21,6 +21,8 @@ Education
 Honors & Awards
 ======
 * **National Scholarship for Graduate Students**, Ministry of Education of China, 2025
+* **Second-Class Graduate Academic Scholarship**, Soochow University, 2024
+* **National Encouragement Scholarship**, Ministry of Education of China, 2023
 
 Research Interests
 ======
