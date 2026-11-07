@@ -178,7 +178,7 @@ redirect_from:
 
       <!-- Complete 16-Author Citation -->
       <p style="font-size: 0.9em; margin-bottom: 1.1em; color: var(--global-text-color); line-height: 1.55;">
-        X. LIU, K. HAN, <b>Y. PENG</b>, Y. NING, J. WU, Z. LUO, D. ZHOU, Z. ZENG, Q. HE, C. CAI, M. B. H. BREESE, A. ARIANDO, C. S. TANG, G. A. SAWATZKY, M. JIANG, and X. YIN.<br>
+        X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, M. B. H. Breese, A. Ariando, C. S. Tang, G. A. Sawatzky, M. Jiang, and X. Yin.<br>
         <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
       </p>
 
