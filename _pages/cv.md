@@ -36,7 +36,7 @@ Conferences & Workshops
 * **The 2nd Workshop on Materials Simulation Software and Applications (MSSA 2026)**, Fudan University, Shanghai, China, Nov 2026
 * **Chinese Physical Society (CPS) Fall Meeting 2026**, Central South University, Changsha, China, Oct 2026
 * **The Conference of Condensed Matter Physics 2026 (CCMP 2026)**, Yangtze River Delta Physics Research Center, Liyang, China, Jun 2026
-* **The 14th Workshop on Quantum Many-Body Computation (QMBC 2026)**, Beijing, China, Apr 2026
+* **The 14th Workshop on Quantum Many-Body Computation (QMBC 2026)**, Beijing Normal University, Beijing, China, Apr 2026
 
 Teaching Experience
 ======
