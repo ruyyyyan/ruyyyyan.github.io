@@ -53,11 +53,3 @@ Skills & Methodologies
 * **Theoretical & Computational Physics**: Density Functional Theory (DFT), First-principles calculations, Effective Hamiltonian construction, Nonlinear dynamics analysis
 * **Physics Topics**: Ferroelectrics & Superlattices (PTO/STO), 2D Materials, Topological Chaos, Strongly Correlated Systems, Superconducting physics
 * **Scientific Computing & Tools**: Python, Linux / Bash, Git, High-Performance Computing (HPC) clusters
-
-Publications
-======
-  <ul>
-  {% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-  </ul>
