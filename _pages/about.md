@@ -20,13 +20,13 @@ redirect_from:
 <!-- Hero Intro & Visitors Globe -->
 <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color);">
   <div style="flex: 1 1 360px; min-width: 280px;">
-    <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student in <b>Theoretical Physics</b> advised by <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a> in the <a href="https://physics.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>School of Physical Science and Technology</b></a> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
-    <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. For my doctoral research under <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin Xu</b></a>, I investigate <b>ferroelectric physics</b> using <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>, with a particular interest in <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b> as well as the emergent <b>topological chaos in PbTiO<sub>3</sub>/SrTiO<sub>3</sub> (PTO/STO) superlattices</b>. During my master's studies with <a href="https://physics.suda.edu.cn/a8/a7/c32869a567463/page.htm" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Mi Jiang</b></a>, I worked on <b>strongly correlated electron systems</b> and <b>high-T<sub>c</sub> superconductivity physics</b>.</p>
+    <p style="margin-top: 0; font-size: 1.05em; line-height: 1.65;">I am currently a Ph.D. student in <b>Theoretical Physics</b> advised by <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin XU</b></a> in the <a href="https://physics.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>School of Physical Science and Technology</b></a> at <a href="https://eng.suda.edu.cn/" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Soochow University</b></a>.</p>
+    <p style="margin-bottom: 16px; line-height: 1.65; color: var(--global-text-color);">My research focuses on computational condensed matter and theoretical physics. For my doctoral research under <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Bin XU</b></a>, I investigate <b>ferroelectric physics</b> using <b>first-principles (ab initio) calculations</b> and <b>effective Hamiltonian methods</b>, with a particular interest in <b>chaotic and nonlinear dynamical behaviors in two-dimensional (2D) sliding ferroelectrics</b> as well as the emergent <b>topological chaos in PbTiO<sub>3</sub>/SrTiO<sub>3</sub> (PTO/STO) superlattices</b>. During my master's studies with <a href="https://physics.suda.edu.cn/a8/a7/c32869a567463/page.htm" target="_blank" style="color: #2b547e; text-decoration: none; font-weight: 600;"><b>Prof. Mi JIANG</b></a>, I worked on <b>strongly correlated electron systems</b> and <b>high-T<sub>c</sub> superconductivity physics</b>.</p>
     
     <!-- Quick Attribute Badges -->
     <div style="display: flex; flex-wrap: wrap; gap: 8px;">
       <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-atom"></i> School of Physical Science and Technology</span>
-      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-user-tie"></i> Advisor: Prof. Bin Xu</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-user-tie"></i> Advisor: Prof. Bin XU</span>
       <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(43, 84, 126, 0.08); color: #2b547e; padding: 4px 10px; border-radius: 6px;"><i class="fas fa-university"></i> Soochow University</span>
       <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-compass"></i> Theoretical Physics</span>
       <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.82em; font-weight: 500; background: rgba(0,0,0,0.04); color: var(--global-text-color); padding: 4px 10px; border-radius: 6px;"><i class="fas fa-map-marker-alt"></i> Suzhou, China</span>
@@ -178,7 +178,7 @@ redirect_from:
 
       <!-- Complete 16-Author Citation -->
       <p style="font-size: 0.9em; margin-bottom: 1.1em; color: var(--global-text-color); line-height: 1.55;">
-        X. Liu, K. Han, <b>Y. Peng</b>, Y. Ning, J. Wu, Z. Luo, D. Zhou, Z. Zeng, Q. He, C. Cai, M. B. H. Breese, A. Ariando, C. S. Tang, G. A. Sawatzky, M. Jiang, and X. Yin.<br>
+        X. LIU, K. HAN, <b>Y. PENG</b>, Y. NING, J. WU, Z. LUO, D. ZHOU, Z. ZENG, Q. HE, C. CAI, M. B. H. BREESE, A. ARIANDO, C. S. TANG, G. A. SAWATZKY, M. JIANG, and X. YIN.<br>
         <i>Nature Communications</i>, 2026. DOI: <a href="https://doi.org/10.1038/s41467-026-77985-0" target="_blank">10.1038/s41467-026-77985-0</a>
       </p>
 
@@ -482,7 +482,7 @@ redirect_from:
       <span style="font-size: 0.84em; font-weight: 600; color: #2b547e;">2026 – Present</span>
     </div>
     <div style="font-size: 0.9em; color: var(--global-text-color); margin-top: 3px;">
-      Soochow University &bull; Advisor: <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Bin Xu</a>
+      Soochow University &bull; Advisor: <a href="https://web.suda.edu.cn/binxu19/index.html" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Bin XU</a>
     </div>
     <p style="margin: 6px 0 0 0; font-size: 0.85em; color: var(--global-text-color-light); line-height: 1.45;">
       <i>Research focus:</i> Ferroelectric physics, first-principles calculations, effective Hamiltonian methods, nonlinear / chaotic dynamics in 2D sliding ferroelectrics, and topological chaos in PTO/STO superlattices.
@@ -500,7 +500,7 @@ redirect_from:
       <span style="font-size: 0.84em; font-weight: 600; color: var(--global-text-color-light);">2024 – 2026</span>
     </div>
     <div style="font-size: 0.9em; color: var(--global-text-color); margin-top: 3px;">
-      Soochow University &bull; Advisor: <a href="https://physics.suda.edu.cn/a8/a7/c32869a567463/page.htm" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Mi Jiang</a>
+      Soochow University &bull; Advisor: <a href="https://physics.suda.edu.cn/a8/a7/c32869a567463/page.htm" target="_blank" style="color: inherit; font-weight: 600; text-decoration: underline;">Prof. Mi JIANG</a>
     </div>
     <p style="margin: 6px 0 0 0; font-size: 0.85em; color: var(--global-text-color-light); line-height: 1.45;">
       <i>Research focus:</i> Strongly correlated electron systems, high-Tc superconductivity physics, and three-orbital Emery model DQMC simulations.
